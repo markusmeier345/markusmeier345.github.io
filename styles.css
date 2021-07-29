@@ -8,7 +8,7 @@ html {
     
     /* Center and scale the image nicely */
     background-attachment: fixed;
-    background-position: left;       
+    background-position: center;       
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,8 +22,10 @@ body {
 h1 {
     font-family: 'Staatliches';
     color:azure;
-    font-size: 100px;
-    padding-top: 37%;
+    font-size: 550%;
+    /*
+    padding-top: 65vh;
+    */
     text-align: center;
 
     /*
@@ -56,6 +58,14 @@ p {
     font-family: 'Roboto';
     font-size: 18px;
 }
+
+.title {
+    display: flex;
+    position: fixed;
+    top: 30vh;
+    width: 100%;
+    justify-content: center;
+}
   
 .content {
     display: flex;
@@ -64,13 +74,13 @@ p {
     margin-top: 10%;
     padding: 25%;
     position: absolute;
-    top: 600px;
+    top: 50vw;
 }
 
 .section {
     margin-bottom: 10%;
     background-image: linear-gradient(to top, transparent,rgb(13, 213, 248), transparent);
-    padding: 2%;
+    padding: 1vw;
 }
 
 .previewpic {
@@ -117,7 +127,7 @@ p {
     border: none;
     font-family: 'Roboto';
     color: black;
-    padding: 15px 64px;
+    padding: 2% 4%;
     text-decoration: none;
     margin: 1%;
     cursor: pointer;
