@@ -221,7 +221,6 @@
                     </p>
                 </div>
                 <div class="socialmedialinks">
-
                     <p>
                         text
                     </p>
@@ -280,21 +279,38 @@
         </div>
     </div>
 
-
     <div class="landscape" id="landscape">
-        <img src="Images/landscape/Horizon.png" id="Horizon">
-        <img src="Images/landscape/Planets.png" id="Planets">
         <h1 id="Title">THEGREENDUDE</h1>
+        <img src="Images/landscape/Planets.png" id="Planets">
+        <img src="Images/landscape/Horizon.png" id="Horizon">
         <img src="Images/landscape/Middleground_1.png" id="Middleground_1">
         <img src="Images/landscape/Middleground_1_Horizon.png" id="Middleground_1_Horizon">
         <img src="Images/landscape/Middleground_2.png" id="Middleground_2">
         <img src="Images/landscape/Middleground_2_Horizon.png" id="Middleground_2_Horizon">
-        <img src="Images/landscape/Foreground.png" id="Foreground">
+    </div>
+
+
+    <div class="footer">
+        <div class="footerlinks">
+            <div class="footer_grid_item">
+            </div>
+            <div class="footer_grid_item">
+                <p>Impresum</p>
+            </div>
+            <div class="footer_grid_item">
+                <p>Kontakt</p>
+            </div>
+            <div class="footer_grid_item">
+                <p>Social Media</p>
+            </div>
+            <div class="footer_grid_item">
+            </div>
+        </div>
     </div>
 
     <div class="Horizon_gradient"></div>
     <div class="overlay"></div>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
 
@@ -303,28 +319,28 @@
             scrollTrigger: {
                 scrub: 1
             },
-            y: +600,
+            y: +400,
         })
 
         gsap.to("#Horizon", {
             scrollTrigger: {
                 scrub: 1
             },
-            y: +300,
+            y: +700,
         })
 
         gsap.to("#Planets", {
             scrollTrigger: {
                 scrub: 1
             },
-            y: +600,
+            y: +1500,
         })
 
-        gsap.to("#Title", {
+        gsap.from("#Title", {
             scrollTrigger: {
                 scrub: 1
             },
-            y: +450,
+            y: -1050,
         })
 
         gsap.to("#Middleground_1", {
@@ -338,30 +354,37 @@
             scrollTrigger: {
                 scrub: 1
             },
-            y: +350,
+            y: +325,
         })
 
         gsap.to("#Middleground_2", {
             scrollTrigger: {
                 scrub: 1
             },
-            y: +300,
+            y: +200,
         })
 
         gsap.to("#Middleground_2_Horizon", {
             scrollTrigger: {
                 scrub: 1
             },
-            y: +350,
+            y: +225,
         })
 
-        gsap.to("#Foreground", {
+        gsap.from('.footer', {
             scrollTrigger: {
                 scrub: 1
             },
-
-            y: +200,
-
+            y: -75,
         })
+
+        gsap.from('.footerlinks', {
+            scrollTrigger: {
+                scrub: 1
+            },
+            y: +75,
+            opacity: 0,
+        })
+
     </script>
 </body>
