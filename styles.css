@@ -78,7 +78,7 @@ p {
 }
 
 .section {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     background-image: linear-gradient(to top, transparent,rgb(13, 213, 248), transparent);
     padding: 1vw;
 }
@@ -126,7 +126,6 @@ p {
     background-color: rgba(240, 240, 240, 0.7);
     border: none;
     font-family: 'Roboto';
-    font-size: 1vw;
     color: black;
     padding: 2% 4%;
     text-decoration: none;
