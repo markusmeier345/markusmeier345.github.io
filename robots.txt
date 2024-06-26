@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://markusmeier345.github.io/sitemap.xml

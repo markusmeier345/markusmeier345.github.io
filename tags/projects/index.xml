@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Markus Meier</title>
     <link>https://markusmeier345.github.io/tags/projects/</link>
     <description>Recent content in Projects on Markus Meier</description>
-    <image>
-      <title>Markus Meier</title>
-      <url>https://markusmeier345.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://markusmeier345.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Jun 2024 17:27:24 +0200</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Card Game</title>
-      <link>https://markusmeier345.github.io/projects/card_game/</link>
+      <link>https://markusmeier345.github.io/projects/card-game/</link>
       <pubDate>Fri, 21 Jun 2024 17:27:24 +0200</pubDate>
-      <guid>https://markusmeier345.github.io/projects/card_game/</guid>
-      <description>Desc Text.</description>
+      <guid>https://markusmeier345.github.io/projects/card-game/</guid>
+      <description>Background 🔗I was the kid on the playgrund that knew the Yu-Gi-Oh! rules. Card Games like Yu-Gi-Oh!, Pokémon TCG and Magic the Gathering played a big role growing up for me. I always wanted to make one myself, so when I had Corona and didnt know what to do with myself I decided to just go for it.&#xA;Visuals 🔗I liked the idea of using old sketches from me. I could save time this way, but I also really like the rough aesthetic of an unfinished sketch.</description>
     </item>
   </channel>
 </rss>
