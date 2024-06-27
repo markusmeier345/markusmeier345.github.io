@@ -6,14 +6,21 @@
     <description>Recent content in Projects on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 17:27:24 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 16:14:37 +0200</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Void_Walk</title>
+      <link>https://markusmeier345.github.io/projects/void_walk/void_walk/</link>
+      <pubDate>Thu, 27 Jun 2024 16:14:37 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/projects/void_walk/void_walk/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Card Game</title>
-      <link>https://markusmeier345.github.io/projects/card-game/</link>
+      <link>https://markusmeier345.github.io/projects/card_game/</link>
       <pubDate>Fri, 21 Jun 2024 17:27:24 +0200</pubDate>
-      <guid>https://markusmeier345.github.io/projects/card-game/</guid>
-      <description>Background 🔗I was the kid on the playgrund that knew the Yu-Gi-Oh! rules. Card Games like Yu-Gi-Oh!, Pokémon TCG and Magic the Gathering played a big role growing up for me. I always wanted to make one myself, so when I had Corona and didnt know what to do with myself I decided to just go for it.&#xA;Visuals 🔗I liked the idea of using old sketches from me. I could save time this way, but I also really like the rough aesthetic of an unfinished sketch.</description>
+      <guid>https://markusmeier345.github.io/projects/card_game/</guid>
+      <description>Background 🔗I was the kid on the playgrund that knew the Yu-Gi-Oh! rules. Card Games like Yu-Gi-Oh!, Pokémon TCG and Magic the Gathering played a big role growing up for me. I always wanted to make one myself, so when I had Corona and didnt know what to do with myself I decided to just go for it.&#xA;Visuals 🔗 Visuals I liked the idea of using old sketches from me.</description>
     </item>
   </channel>
 </rss>

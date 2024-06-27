@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>²just Testing² on Markus Meier</title>
-    <link>https://markusmeier345.github.io/tags/just-testing/</link>
+    <link>http://localhost:1313/tags/just-testing/</link>
     <description>Recent content in ²just Testing² on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Jun 2024 15:10:32 +0200</lastBuildDate>
-    <atom:link href="https://markusmeier345.github.io/tags/just-testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/just-testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://markusmeier345.github.io/test/</link>
+      <link>http://localhost:1313/test/</link>
       <pubDate>Tue, 25 Jun 2024 15:10:32 +0200</pubDate>
-      <guid>https://markusmeier345.github.io/test/</guid>
+      <guid>http://localhost:1313/test/</guid>
       <description>Is this working? 🔗</description>
     </item>
   </channel>

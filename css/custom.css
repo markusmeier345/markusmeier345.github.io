@@ -1,0 +1,9 @@
+details > summary {
+    border-left: 6px solid black;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+details > p {
+    padding: 40px;
+}
