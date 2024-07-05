@@ -12,8 +12,17 @@
 
 details > summary {
     border-left: 6px solid var(--secondary);
-    background-color: var(--teritary);
+    background-color: var(--blocks);
     padding: 10px;
+}
+
+details {
+    background-color: var(--blocks);
+    border-radius: 0px 0px 18px 18px;
+}
+
+details > div {
+    padding: 16px 16px 20px 16px;
 }
 
 details > p {
