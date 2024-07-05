@@ -1,9 +1,97 @@
+:root{
+    --background: rgb(245, 245, 245);
+    --blocks: rgb(255, 255, 255);
+
+    --highlight: rgb(58, 207, 71);
+
+    --primary: #404040;
+    --secondary: rgb(30, 30, 30);
+    --teritary: #f8f8f8;
+
+}
+
 details > summary {
-    border-left: 6px solid black;
-    background-color: #f8f8f8;
+    border-left: 6px solid var(--secondary);
+    background-color: var(--teritary);
     padding: 10px;
 }
 
 details > p {
     padding: 40px;
 }
+
+body {
+    background-color: var(--background);
+}
+
+a {
+    color: var(--primary)
+}
+
+a:hover {
+    color: var(--highlight);
+}
+
+/* navigation */
+
+nav.navigation {
+    background-color: var(--background);
+}
+
+nav.navigation a {
+    color: var(--primary);
+    font-size: 16px;
+}
+
+nav.navigation a:hover {
+    color: var(--highlight)
+}
+
+
+/* index post list */
+
+#list-page .item {
+    margin-top: 16px;
+    margin-bottom: 16px;;
+}
+
+#list-page .title a:hover {
+    color: var(--highlight)
+}
+
+section.item {
+    background-color: var(--blocks);
+    padding: 14px;
+    border-radius: 14px;
+}
+
+/* single page */
+
+#single .tags a:hover {
+    color: var(--highlight);
+}
+
+/* tags */
+
+#tags .tag a:hover {
+    color: var(--highlight);
+}
+
+/* profile */
+
+.profile .avatar {
+    width: 160px;
+    height: 160px;
+    border: 8px solid var(--teritary);
+}
+
+/* archive */
+
+#archive .group .value .title a {
+    color: var(--primary);
+}
+
+#archive .group .value .title a:hover {
+    color: var(--highlight);
+}
+
