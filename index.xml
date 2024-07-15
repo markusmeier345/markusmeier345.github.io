@@ -6,14 +6,35 @@
     <description>Recent content on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jul 2024 10:31:26 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 10:37:28 +0200</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dont Look at Medusa</title>
+      <link>https://markusmeier345.github.io/projects/dont_look_at_medusa/</link>
+      <pubDate>Mon, 15 Jul 2024 10:37:28 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/projects/dont_look_at_medusa/</guid>
+      <description>Dont’t Look at Medusa is an experimetl VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of VR Gameplay possibilities.</description>
+    </item>
+    <item>
+      <title>Back to the Roots</title>
+      <link>https://markusmeier345.github.io/projects/back_to_the_roots/</link>
+      <pubDate>Mon, 15 Jul 2024 10:29:18 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/projects/back_to_the_roots/</guid>
+      <description>This Project was made in one month as a submission for the Game Off 2023 Gamejam.</description>
+    </item>
+    <item>
+      <title>emotion gap</title>
+      <link>https://markusmeier345.github.io/projects/emotion_gap/</link>
+      <pubDate>Mon, 15 Jul 2024 10:02:32 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/projects/emotion_gap/</guid>
+      <description>This is my first Game Project and what got me into Game Design.</description>
+    </item>
     <item>
       <title>Projects</title>
       <link>https://markusmeier345.github.io/projects/</link>
       <pubDate>Sun, 07 Jul 2024 10:31:26 +0200</pubDate>
       <guid>https://markusmeier345.github.io/projects/</guid>
-      <description>List all projects here</description>
+      <description>Dont Look at Medusa 15 July 2024 Dont’t Look at Medusa is an experimetal VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of Gameplay possibilities unique to VR.</description>
     </item>
     <item>
       <title>About</title>
@@ -27,14 +48,14 @@
       <link>https://markusmeier345.github.io/projects/void_walk/</link>
       <pubDate>Fri, 05 Jul 2024 15:56:46 +0200</pubDate>
       <guid>https://markusmeier345.github.io/projects/void_walk/</guid>
-      <description>The project &amp;ldquo;Void Walk&amp;rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story. We combine fantasy with reality in order to create a possible intermediate world in which the protagonist has to come to terms with his past to be able to &amp;ldquo;step into the light&amp;rdquo;. Status: finished&#xA;Gallery 🔗 some text&#xA;Highres screenshot00000 1&#xA;Highres screenshot00001 01</description>
+      <description>The project &amp;ldquo;Void Walk&amp;rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story.</description>
     </item>
     <item>
       <title>Card Game</title>
       <link>https://markusmeier345.github.io/projects/card_game/</link>
       <pubDate>Fri, 21 Jun 2024 17:27:24 +0200</pubDate>
       <guid>https://markusmeier345.github.io/projects/card_game/</guid>
-      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine. Status: Unfinished&#xA;Background 🔗I was the kid on the playground that knew the Yu-Gi-Oh! rules. Card Games like Yu-Gi-Oh!, Pokémon TCG and Magic the Gathering played a big role for me when I grew up. I always wanted to make one myself, so when I had Corona and didnt know what to do with myself I decided to just go for it.</description>
+      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine.</description>
     </item>
   </channel>
 </rss>
