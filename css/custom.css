@@ -51,11 +51,22 @@ section.item > p {
     margin-bottom: 5px;
 }
 
+
+
 div.grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 5px;
     justify-content:center;
+}
+
+@media screen and (max-width: 720px) {
+    div.grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5px;
+        justify-content:center;
+    }
 }
 
 #grid-item {
