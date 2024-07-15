@@ -63,7 +63,7 @@ div.grid {
 @media screen and (max-width: 720px) {
     div.grid {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         padding: 5px;
         justify-content:center;
     }
