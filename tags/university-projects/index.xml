@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>University Projects on Markus Meier</title>
+    <link>https://markusmeier345.github.io/tags/university-projects/</link>
+    <description>Recent content in University Projects on Markus Meier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/tags/university-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Void Walk</title>
+      <link>https://markusmeier345.github.io/projects/void_walk/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/void_walk/</guid>
+      <description>The project &amp;ldquo;Void Walk&amp;rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story.</description>
+    </item>
+    <item>
+      <title>emotion gap</title>
+      <link>https://markusmeier345.github.io/projects/emotion_gap/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/emotion_gap/</guid>
+      <description>This is my first Game Project and what got me into Game Design.</description>
+    </item>
+  </channel>
+</rss>

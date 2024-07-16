@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>University Projcts on Markus Meier</title>
+    <link>https://markusmeier345.github.io/tags/university-projcts/</link>
+    <description>Recent content in University Projcts on Markus Meier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/tags/university-projcts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dont Look at Medusa</title>
+      <link>https://markusmeier345.github.io/projects/dont_look_at_medusa/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/dont_look_at_medusa/</guid>
+      <description>Dont’t Look at Medusa is an experimetl VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of VR Gameplay possibilities.</description>
+    </item>
+  </channel>
+</rss>

@@ -6,13 +6,34 @@
     <description>Recent content in Tags on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 10:37:28 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Projects</title>
+      <link>https://markusmeier345.github.io/tags/personal-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/personal-projects/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Projects</title>
       <link>https://markusmeier345.github.io/tags/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/tags/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>University Projcts</title>
+      <link>https://markusmeier345.github.io/tags/university-projcts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/university-projcts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>University Projects</title>
+      <link>https://markusmeier345.github.io/tags/university-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/university-projects/</guid>
       <description></description>
     </item>
   </channel>
