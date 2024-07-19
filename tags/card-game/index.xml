@@ -2,10 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Card Game on Markus Meier</title>
-    <link>http://localhost:1313/tags/card-game/</link>
+    <link>https://markusmeier345.github.io/tags/card-game/</link>
     <description>Recent content in Card Game on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/card-game/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jul 2024 11:14:58 +0200</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/tags/card-game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post_001</title>
+      <link>https://markusmeier345.github.io/devlogs/card_game/post_001/</link>
+      <pubDate>Tue, 16 Jul 2024 11:14:58 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/card_game/post_001/</guid>
+      <description>some text</description>
+    </item>
+    <item>
+      <title>Card Game</title>
+      <link>https://markusmeier345.github.io/projects/card_game/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/card_game/</guid>
+      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine.</description>
+    </item>
   </channel>
 </rss>

@@ -2,11 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://markusmeier345.github.io/</loc>
-    <lastmod>2024-07-07T10:31:26+02:00</lastmod>
+    <loc>https://markusmeier345.github.io/tags/card-game/</loc>
+    <lastmod>2024-07-16T11:14:58+02:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/projects/</loc>
-    <lastmod>2024-07-07T10:31:26+02:00</lastmod>
+    <loc>https://markusmeier345.github.io/tags/devlogs/</loc>
+    <lastmod>2024-07-16T11:14:58+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/devlogs/</loc>
+    <lastmod>2024-07-16T11:14:58+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/</loc>
+    <lastmod>2024-07-16T11:14:58+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/devlogs/card_game/post_001/</loc>
+    <lastmod>2024-07-16T11:14:58+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/</loc>
+    <lastmod>2024-07-16T11:14:58+02:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/about/</loc>
     <lastmod>2024-07-06T12:35:31+02:00</lastmod>
@@ -20,20 +32,17 @@
     <loc>https://markusmeier345.github.io/tags/projects/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/tags/</loc>
+    <loc>https://markusmeier345.github.io/projects/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/projects/dont_look_at_medusa/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/tags/university-projcts/</loc>
+    <loc>https://markusmeier345.github.io/tags/university-projects/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/projects/card_game/</loc>
     <lastmod>2023-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://markusmeier345.github.io/tags/university-projects/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/projects/void_walk/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>

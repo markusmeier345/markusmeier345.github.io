@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devlogs on Markus Meier</title>
+    <link>https://markusmeier345.github.io/tags/devlogs/</link>
+    <description>Recent content in Devlogs on Markus Meier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jul 2024 11:14:58 +0200</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/tags/devlogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post_001</title>
+      <link>https://markusmeier345.github.io/devlogs/card_game/post_001/</link>
+      <pubDate>Tue, 16 Jul 2024 11:14:58 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/card_game/post_001/</guid>
+      <description>some text</description>
+    </item>
+  </channel>
+</rss>

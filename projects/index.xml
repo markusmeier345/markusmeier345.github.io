@@ -2,25 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Markus Meier</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://markusmeier345.github.io/projects/</link>
     <description>Recent content in Projects on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2024 15:56:46 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Void Walk</title>
-      <link>http://localhost:1313/projects/void_walk/</link>
-      <pubDate>Fri, 05 Jul 2024 15:56:46 +0200</pubDate>
-      <guid>http://localhost:1313/projects/void_walk/</guid>
-      <description>The project &amp;ldquo;Void Walk&amp;rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story. We combine fantasy with reality in order to create a possible intermediate world in which the protagonist has to come to terms with his past to be able to &amp;ldquo;step into the light&amp;rdquo;. Status: finished&#xA;Gallery 🔗 The Team 🔗This Project was made together with</description>
+      <title>Back to the Roots</title>
+      <link>https://markusmeier345.github.io/projects/back_to_the_roots/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/back_to_the_roots/</guid>
+      <description>This Project was made in one month as a submission for the Game Off 2023 Gamejam.</description>
+    </item>
+    <item>
+      <title>Dont Look at Medusa</title>
+      <link>https://markusmeier345.github.io/projects/dont_look_at_medusa/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/dont_look_at_medusa/</guid>
+      <description>Dont’t Look at Medusa is an experimetl VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of VR Gameplay possibilities.</description>
     </item>
     <item>
       <title>Card Game</title>
-      <link>http://localhost:1313/projects/card_game/</link>
-      <pubDate>Fri, 21 Jun 2024 17:27:24 +0200</pubDate>
-      <guid>http://localhost:1313/projects/card_game/</guid>
-      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine. Status: Unfinished&#xA;Background 🔗I was the kid on the playground that knew the Yu-Gi-Oh! rules. Card Games like Yu-Gi-Oh!, Pokémon TCG and Magic the Gathering played a big role for me when I grew up. I always wanted to make one myself, so when I had Corona and didnt know what to do with myself I decided to just go for it.</description>
+      <link>https://markusmeier345.github.io/projects/card_game/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/card_game/</guid>
+      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine.</description>
+    </item>
+    <item>
+      <title>Void Walk</title>
+      <link>https://markusmeier345.github.io/projects/void_walk/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/void_walk/</guid>
+      <description>The project &amp;ldquo;Void Walk&amp;rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story.</description>
+    </item>
+    <item>
+      <title>emotion gap</title>
+      <link>https://markusmeier345.github.io/projects/emotion_gap/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/emotion_gap/</guid>
+      <description>This is my first Game Project and what got me into Game Design.</description>
     </item>
   </channel>
 </rss>
