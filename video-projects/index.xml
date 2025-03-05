@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video Projects on Markus Meier</title>
+    <link>https://markusmeier345.github.io/video-projects/</link>
+    <description>Recent content in Video Projects on Markus Meier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://markusmeier345.github.io/video-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMVs / Anime Music Videos</title>
+      <link>https://markusmeier345.github.io/video-projects/amvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/amvs/</guid>
+      <description>AMVs stands for either Anime Music Video or Animated Music Video.</description>
+    </item>
+  </channel>
+</rss>

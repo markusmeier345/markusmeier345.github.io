@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>One Armed Samurai on Markus Meier</title>
+    <link>https://markusmeier345.github.io/tags/one-armed-samurai/</link>
+    <description>Recent content in One Armed Samurai on Markus Meier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2025 12:35:31 +0200</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/tags/one-armed-samurai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One Armed Samurai</title>
+      <link>https://markusmeier345.github.io/projects/one_armed_samurai/</link>
+      <pubDate>Thu, 09 Jan 2025 12:35:31 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/projects/one_armed_samurai/</guid>
+      <description>One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</description>
+    </item>
+    <item>
+      <title>Devlog 3: Enemies and Darkness</title>
+      <link>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_003/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_003/</guid>
+      <description>In the past few weeks I have worked on some of the horror genre aspects of the game.</description>
+    </item>
+    <item>
+      <title>Devlog 2: Visual Endeavors</title>
+      <link>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_002/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_002/</guid>
+      <description>In this Developer Diary I will focus on some of the visuals I have created and design choices.</description>
+    </item>
+    <item>
+      <title>Devlog 1: Introduction to my Bachelor Thesis</title>
+      <link>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_001/</link>
+      <pubDate>Tue, 16 Jul 2024 11:14:58 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_001/</guid>
+      <description>This is the first post on my Developer Diary of my Bachelor Thesis, a game currently under the working title of &amp;ldquo;One Armed Samurai&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>
