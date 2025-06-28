@@ -78,6 +78,21 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 0vw 0vw 0vw;
     }
+    
+    @media only screen and (max-width: 425px) {
+        .grid-container-list {
+            grid-template-columns: 1fr;
+        } 
+        .post-text > p {
+            font-size: 0px;
+        }
+    }
+
+    @media only screen and (max-width:1024px) {
+        .grid-container-list {
+            grid-template-columns: 1fr ;
+        }
+    }
 </style>
 
 

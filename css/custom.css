@@ -247,3 +247,15 @@ section.item {
     font-size: 110%;
     padding: 0 10px 0 10px;
 }
+
+@media only screen and (max-width:1024px) {
+    .grid-container-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .grid-container-list {
+        grid-template-columns: 1fr;
+    } 
+}
