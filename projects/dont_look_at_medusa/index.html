@@ -40,11 +40,14 @@
 
   <body>
     <nav class="navigation">
-	<a href="/">Home</a>
-	<a href="/tags/video-projects">Video Projects</a>
-	<a href="/tags/projects">Projects</a>
-	<a href="/about">About Me</a>
-
+	<div>
+		<a href="/">Home</a>
+		<a href="/categories/projects">Projects</a>
+		<a href="/categories/devlogs">DevLogs</a>
+		<a href="/categories/video-projects">Video Projects</a>
+		<a href="/archive">Archive</a>
+		<a href="/about">About Me</a>
+	</div>
 </nav>
 
 
@@ -103,6 +106,7 @@
 
     <div class="content">
       <p>Dont’t Look at Medusa is an experimetl VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of VR Gameplay possibilities.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2TrY29Ufow0?si=7ro_UxGL2uVcHmz9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2 id="background">Background <a href="#background" class="anchor">🔗</a></h2><p>We had several intentions for the project. On the one hand, we wanted to shed light on Medusa’s<br>
 story, as it emerged during the research that there are different<br>
 versions about her.<br>
@@ -185,7 +189,7 @@ with the movement and viewing direction of the head, and what interactions and t
 <li>Character Modelling and Animation – Jacqueline Grüner</li>
 <li>Programming – Markus Meier &amp; Haochen</li>
 </ul>
-<p>Due to time limitations and techincal difficulties wer ewe unable to deliever a playable prototype.</p>
+<p>Due to time limitations and techincal difficulties we were unable to deliever a playable prototype.</p>
 <h3 id="object-interaction">Object Interaction <a href="#object-interaction" class="anchor">🔗</a></h3>
 <details>
     <summary>Click to expand</summary>
@@ -194,6 +198,7 @@ with the movement and viewing direction of the head, and what interactions and t
 <p>A note from a fallen warrior can be found in a hidden room. This contains a little spice for the story as well as instructions on how to make a sleeping potion. The note is a widget with a parchment-like background and a text element. A font that looks like handwriting has a different effect than actual handwriting, but this makes it easier to create a localization for different languages.</p>
 <p>The sleeping potion is designed as a throwing potion. On the one hand, this is easier to implement, and on the other, it is fun to throw things into VR. The bottle is a clay vessel, so no visual changes need to be made when the contents change.</p>
 <p>Instead of creating a child for each ingredient, it is a blueprint that sets its mesh in runtime based on an enum representing the ingredient. Preparing the sleeping potion consists of simple collision checks in which the enum is called. When all the ingredients have been added, a particle system signals that the potion is ready. If the bottle is thrown or falls, a check is made to ensure that all the ingredients are present and that the speed has exceeded the limit. Only then does it burst and produce a pink cloud of smoke.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IOAOcuQ8o30?si=jHKWJ1PNHswUmzOK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </details>
 
@@ -204,6 +209,7 @@ with the movement and viewing direction of the head, and what interactions and t
     <div><p>To avoid looking Medusa in the eye, the player should be able to orient himself with a shield that reflects the surroundings. This proved to be one of the most complex problems.</p>
 <p>The first method was to use a SceneCapture2D or SceneCaptureCube to project the environment as a texture. In principle, the SceneCaptureCube method works, but at the expense of performance, as the scene, including the viewport, has to be rendered a total of 7 times per screen. We then had to turn our attention to optimization. The biggest costs arise when calculating highlights and shadows. If the viewport calculates these but the shield skips them, we still couldn&rsquo;t achieve more than 20 fps.</p>
 <p>Through further research I found Planar Reflections. These work much better and take the surface texture into account, but their workflow is designed for fixed angles. However, I was able to work around this as long as the original angle of the shield and the planar reflection matched. In addition, this method allows me to make invisible objects visible in the shield and vice versa.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Pd74AUMZmK8?si=7py9CH37dTfL-ce-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </details>
 
@@ -221,11 +227,24 @@ The mesh and the poses are external materials from <a href="https://www.mixamo.c
     </div>
 
     
+    
         <div class="tags">
+          <p>Tags:</p>
             
-                <a href="https://markusmeier345.github.io/tags/projects">Projects</a>
+                <a href="https://markusmeier345.github.io/tags/unreal-engine-5">Unreal Engine 5</a>
             
-                <a href="https://markusmeier345.github.io/tags/university-projects">University Projects</a>
+                <a href="https://markusmeier345.github.io/tags/vr">VR</a>
+            
+        </div>
+    
+
+    
+        <div class="tags">
+          <p>Categories:</p>
+            
+              <a href="https://markusmeier345.github.io/categories/projects">Projects</a>
+            
+              <a href="https://markusmeier345.github.io/categories/university-projects">University Projects</a>
             
         </div>
     
@@ -236,7 +255,7 @@ The mesh and the poses are external materials from <a href="https://www.mixamo.c
 
 
     </main>
-    
+
     <footer id="footer">
     
         <div id="social">
@@ -283,9 +302,177 @@ The mesh and the poses are external materials from <a href="https://www.mixamo.c
         Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
       </div>
     
+    <a href="/privacy-policy">Privacy Policy</a>
+    <br>
+    <a href="#" onclick="eraseCookie('consent-settings'); location.reload();">reset cookies consent banner</a>
 </footer>
 
 
+
+    <style>
+    #consent-notice {padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+    #consent-notice span {margin-right: 1rem;}
+    #consent-notice button {cursor: pointer; display: inline-block; width: auto;}
+    #consent-notice span a {color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.5);}
+    #consent-notice button.btn {margin-left: 0.5rem;}
+    #consent-notice button.btn.manage-consent {background: rgba(255,255,255,0.1); font-weight: normal;}
+    
+    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
+    #consent-overlay.active {display: flex;}
+    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
+    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
+    #consent-overlay > div > div:last-child {margin: 0;}
+    #consent-overlay h3 {padding-top: 0;}
+    #consent-overlay input {margin-top: 0.3rem;}
+    #consent-overlay label {display: block;}
+    #consent-overlay .btn {margin-right: 0.5rem;}
+    #consent-overlay button.btn.save-consent {background: rgba(0,0,0,0.6); font-weight: normal;}
+
+    @media (max-width: 767px) {
+        #consent-overlay > div {padding: 1.75rem 1rem;}
+        #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
+        #consent-notice button.btn {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="consent-notice"><span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span><button class="btn manage-consent">Manage preferences</button><button onclick="window.location.href='/goodbye.html';">Deny</button><button class="btn approve-consent">Allow</button></div>
+<div id="consent-overlay">
+    <div>
+        
+            <div>
+                <input type="checkbox" id="item0" value="1" name="item0" checked disabled />
+                <label for="item0">
+                    <h3>Youtube (funtional)</h3>
+                    <p>This is necessary to embed Youtube Videos. Cookies will only be set after clicking on a video.</p>
+                </label>
+            </div>
+        
+        <div>
+            <button id="save-consent" class="btn save-consent" data-consentvalue="">Save preferences</button>
+            <button class="btn approve-consent">Allow all</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    const scripts = [];
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue,31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = value;
+                document.body.appendChild(s);
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = "";
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+    elements.forEach(function(el) {
+        el.checked = false;
+    });
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
+            this.classList.toggle('active');
+        }
+    });
+</script>
+
+
+    
+        <script type="text/javascript" src="/js/"></script>
+    
 
 
 

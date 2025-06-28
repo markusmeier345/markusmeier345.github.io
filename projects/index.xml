@@ -6,14 +6,28 @@
     <description>Recent content in Projects on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 12:35:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio with Hugo</title>
+      <link>https://markusmeier345.github.io/projects/portfolio/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/portfolio/</guid>
+      <description>Project Outline 🔗Choosing a Web Tool 🔗The majority of the internet is build with wordpress, but I never managed to be happy with what it offers and how it works.</description>
+    </item>
     <item>
       <title>One Armed Samurai</title>
       <link>https://markusmeier345.github.io/projects/one_armed_samurai/</link>
       <pubDate>Thu, 09 Jan 2025 12:35:31 +0200</pubDate>
       <guid>https://markusmeier345.github.io/projects/one_armed_samurai/</guid>
       <description>One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</description>
+    </item>
+    <item>
+      <title>Waldeinsamkeit</title>
+      <link>https://markusmeier345.github.io/projects/waldeinsamkeit/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/waldeinsamkeit/</guid>
+      <description>This Page is WIP</description>
     </item>
     <item>
       <title>Back to the Roots</title>

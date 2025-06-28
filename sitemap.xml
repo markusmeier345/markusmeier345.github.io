@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://markusmeier345.github.io/</loc>
-    <lastmod>2025-01-09T12:35:31+02:00</lastmod>
+    <loc>https://markusmeier345.github.io/categories/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/tags/one-armed-samurai/</loc>
-    <lastmod>2025-01-09T12:35:31+02:00</lastmod>
+    <loc>https://markusmeier345.github.io/tags/css/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/html/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/hugo/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/categories/personal-projects/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/projects/portfolio/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/projects/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/categories/projects/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/</loc>
+    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/projects/one_armed_samurai/</loc>
     <lastmod>2025-01-09T12:35:31+02:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/tags/projects/</loc>
+    <loc>https://markusmeier345.github.io/categories/university-projects/</loc>
     <lastmod>2025-01-09T12:35:31+02:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/projects/</loc>
-    <lastmod>2025-01-09T12:35:31+02:00</lastmod>
-  </url><url>
-    <loc>https://markusmeier345.github.io/tags/</loc>
-    <lastmod>2025-01-09T12:35:31+02:00</lastmod>
-  </url><url>
-    <loc>https://markusmeier345.github.io/tags/university-projects/</loc>
+    <loc>https://markusmeier345.github.io/tags/unreal-engine-5/</loc>
     <lastmod>2025-01-09T12:35:31+02:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/tags/bachelorthesis/</loc>
@@ -29,11 +47,14 @@
     <loc>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_003/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/tags/devlogs/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://markusmeier345.github.io/devlogs/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/categories/devlogs/</loc>
+    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/bachelor-thesis/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_002/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
@@ -44,10 +65,37 @@
     <loc>https://markusmeier345.github.io/about/</loc>
     <lastmod>2024-07-06T12:35:31+02:00</lastmod>
   </url><url>
+    <loc>https://markusmeier345.github.io/archive/</loc>
+    <lastmod>2024-07-06T12:35:31+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/impressum/</loc>
+    <lastmod>2024-07-06T12:35:31+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/privacy-policy/</loc>
+    <lastmod>2024-07-06T12:35:31+02:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/vr/</loc>
+    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/projects/waldeinsamkeit/</loc>
+    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://markusmeier345.github.io/projects/back_to_the_roots/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://markusmeier345.github.io/tags/personal-projects/</loc>
+    <loc>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/tags/game-off-2023/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/categories/gamejam/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/categories/video-projects/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://markusmeier345.github.io/video-projects/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://markusmeier345.github.io/projects/dont_look_at_medusa/</loc>
@@ -65,12 +113,10 @@
     <loc>https://markusmeier345.github.io/projects/emotion_gap/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://markusmeier345.github.io/tags/unreal-engine-4/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://markusmeier345.github.io/video-projects/amvs/</loc>
-  </url><url>
-    <loc>https://markusmeier345.github.io/categories/</loc>
-  </url><url>
-    <loc>https://markusmeier345.github.io/video-projects/</loc>
-  </url><url>
-    <loc>https://markusmeier345.github.io/tags/video-projects/</loc>
+    <lastmod>2017-12-09T00:00:00+00:00</lastmod>
   </url>
 </urlset>

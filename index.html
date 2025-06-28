@@ -45,193 +45,557 @@
 
   <body>
     <nav class="navigation">
-	<a href="/">Home</a>
-	<a href="/tags/video-projects">Video Projects</a>
-	<a href="/tags/projects">Projects</a>
-	<a href="/about">About Me</a>
-
+	<div>
+		<a href="/">Home</a>
+		<a href="/categories/projects">Projects</a>
+		<a href="/categories/devlogs">DevLogs</a>
+		<a href="/categories/video-projects">Video Projects</a>
+		<a href="/archive">Archive</a>
+		<a href="/about">About Me</a>
+	</div>
 </nav>
 
 
     <main class="main">
       
-<header class="profile">
+
+
+<style>
+    body {
+        margin: 0;
+    }
+
+    .hero-image {
+        background-image: linear-gradient(to top, rgba(245, 245, 245,1), rgba(0,0,0,0)),url("images/showreel_v6.gif");
+        height: round(up, 80vh, 25px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    #hero-text {
+        text-align: center;
+        font-size: 5vw;
+        margin-top: 0;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h1  {
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    #single{
+        max-width: none;
+        padding: 0;
+        margin-bottom: 5%;
+        padding-bottom: 5%;   
+    }
+
+    .cover-image {
+        height: auto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns:  auto 65% ;
+    }
+
+    #profile {
+        padding: 0 0 0 15vw;
+    }
+
+    .profile .avatar {
+    width: 75%;
+    height: auto;
+    }
+
+    .grid-container > div {
+        padding: 5vw;
+        padding-right: 15vw;
+        padding-left: 15vw;
+    }
+
+    .grid-container-projects {
+        background-color: #f1f1f1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 5vw 0vw 5vw;
+    }
+
+    .grid-container-projects > div {
+        aspect-ratio: 1/1;
+        background-color: rgb(245, 245, 245);
+        padding: 25px;
+        margin: 25px;
+    }
+
+    #statement {
+        font-style: italic;
+        font-size: 22px;
+        margin: 10vw;
+        background-color: white;
+        padding: 5vw;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+
+
+
+
+    @media only screen and (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns:  auto;
+        }
+    #profile {
+        padding: 0 15vw;
+        }
+
+    .grid-container-projects {
+        grid-template-columns: 100%;  
+    }
+
+    .grid-container-recent {
+        grid-template-columns: 1fr 1fr;
+    }
+    }
+
+    @media only screen and (max-width: 425px) {
+    .grid-container-recent {
+        grid-template-columns: 1fr;
+    }   
+    #statement {
+        font-size: 14px;
+    }
+
+    }
+
+
+</style>
+
+
+<section class="hero-image">
+    <div>
+        <h1 id="hero-text">Welcome</h1>
+    </div>
+</section>
+
+
+<section id="single">
+    <div class="grid-container">
+        <div id="profile">
+            <header class="profile">
     
         <img class="avatar" alt="avatar" src="/images/profilepic.jpg" />
     
 
     <p style="font-size: x-small; margin: 0px;">
-      Photo by <a href="https://www.instagram.com/byjenniferpfeifer/">Jennifer Pfeifer
+      Photo by <a href="https://www.instagram.com/byjenniferpfeifer/" target="_blank">Jennifer Pfeifer
     </a></p>
 
     <h1>Markus Meier</h1>
     
-    
-      <h2>Game Designer</h2>
+      <h2>Game Designer, Art Enthusiast &amp; Professional Rubberduck</h2>
     
 </header>
-
-<section id="single">
-    <h1>Welcome</h1>
-    <div style="columns: 250px 2;">
-        <p style="margin-top: 0;">Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games. 
-            At this time I am pursuing a Bachelors Degree, but am also planning to enroll for a Master.</p>
-        <p>My journey started with drawing comics, moving forward into video editing, which then lead to its logcial combination: Animation. 
-            When I enrolled into University I was set foof into pursuing this. I would dabble with Unity every once in a while but would never get the grip of it.</p>
-        <p>Fortunately I met amazing Tutors and Professors that introduced me to Game Design and the Unreal Engine and by now I am obsessed with it.</p>
-        <p>I am still fascinated by narrative driven experiences and have great appreciation for well executed animation, but also love to think about what makes something fun and enjoyable. 
-            My goal it to be able to construct experiences that allows players to view the world from a differnt perspective. I believe this is the great strength of video games as an art form.</p>
-    </div>
-</section>
-
-<section id="single">
-    <h1>Software I like to use</h1>
-    <div style="columns: 100px 5;">
-        <p style="margin-top: 0; text-align: center;">Unreal Engine
-        <p style="text-align: center;">Blender</p>
-        <p style="text-align: center;">Clip Studio Paint</p>
-        <p style="text-align: center;">Blockbench</p>
-        <p style="text-align: center;">Godot</p>
-    </div>
-</section>
-
-<section id="single">
-    <h1>Recents Posts</h1>
-</section>
-
-<div id="list-page">
-    
-    
-    
-    
-        
-        
-        <section class="item">
-            <div>
-                
-                 
-                <img src="https://markusmeier345.github.io/projects/one_armed_samurai/Projects/One_Armed_Samurai/cover.png" class="cover-image" />
-                
-            </div>
-            <div>
-                <h1 class="title"><a href='/projects/one_armed_samurai/'>One Armed Samurai</a></h1>
-                <div class ="date">
-                    <time datetime="2025-01-09 12:35:31 &#43;0200 &#43;0200">Jan 9, 2025</time>  
-                </div>
-            </div>
-
-          
-              <div class="summary">One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-            <div>
-                
-                 
-                <img src="https://markusmeier345.github.io/devlogs/one_armed_samurai/post_003/HighresScreenshot00000.png" class="cover-image" />
-                
-            </div>
-            <div>
-                <h1 class="title"><a href='/devlogs/one_armed_samurai/post_003/'>Devlog 3: Enemies and Darkness</a></h1>
-                <div class ="date">
-                    <time datetime="2024-11-26 00:00:00 &#43;0000 UTC">Nov 26, 2024</time>  
-                </div>
-            </div>
-
-          
-              <div class="summary">In the past few weeks I have worked on some of the horror genre aspects of the game.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-            <div>
-                
-                 
-                <img src="https://markusmeier345.github.io/devlogs/one_armed_samurai/post_002/Screenshot%20from%202024-10-23%2019-06-37.png" class="cover-image" />
-                
-            </div>
-            <div>
-                <h1 class="title"><a href='/devlogs/one_armed_samurai/post_002/'>Devlog 2: Visual Endeavors</a></h1>
-                <div class ="date">
-                    <time datetime="2024-11-04 00:00:00 &#43;0000 UTC">Nov 4, 2024</time>  
-                </div>
-            </div>
-
-          
-              <div class="summary">In this Developer Diary I will focus on some of the visuals I have created and design choices.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-            <div>
-                
-                 
-                <img src="https://markusmeier345.github.io/devlogs/one_armed_samurai/post_001/0423_yusuke_2.png" class="cover-image" />
-                
-            </div>
-            <div>
-                <h1 class="title"><a href='/devlogs/one_armed_samurai/post_001/'>Devlog 1: Introduction to my Bachelor Thesis</a></h1>
-                <div class ="date">
-                    <time datetime="2024-07-16 11:14:58 &#43;0200 CEST">Jul 16, 2024</time>  
-                </div>
-            </div>
-
-          
-              <div class="summary">This is the first post on my Developer Diary of my Bachelor Thesis, a game currently under the working title of “One Armed Samurai”.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-            <div>
-                
-                
-            </div>
-            <div>
-                <h1 class="title"><a href='/about/'>About</a></h1>
-                <div class ="date">
-                    <time datetime="2024-07-06 12:35:31 &#43;0200 CEST">Jul 6, 2024</time>  
-                </div>
-            </div>
-
-          
-              <div class="summary">This section is in construction. Please return another time.</div>
-          
-
-        </section>
-    
-
-    
-        <div class="pagination">
-          
-          
-          
-              <span class="next">
-                  <a href="/page/2/">
-                      Older posts <span class="arrow">→</span>
-                  </a>
-              </span>
-          
         </div>
-    
+        <div>
+            <div style="columns: 250px 2;">
+                <p style="margin-top: 0;">Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games. 
+                    At this time I am pursuing a Bachelors Degree, but am also planning to enroll for a Master.</p>
+                <p>My journey started with drawing comics, moving forward into video editing, which then lead to its logcial combination: Animation. 
+                    When I enrolled into University I was set foof into pursuing this. I would dabble with Unity every once in a while but would never get the grip of it.</p>
+                <p>Fortunately I met amazing Tutors and Professors that introduced me to Game Design and the Unreal Engine and by now I am obsessed with it.</p>
+                <p>I am still fascinated by narrative driven experiences and have great appreciation for well executed animation, but also love to think about what makes something fun and enjoyable. 
+                    My goal is to be able to construct experiences that allows players to view the world from a differnt perspective. I believe this is the great strength of video games as an art form.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="single" style="background-color: #f1f1f1;">
+<h1>Highlighted Projects</h1>
+
+<div class="grid-container-projects">
+       
+
+           
+ 
 
 
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+
+
+<div>
+     
+      
+     <img src="https://markusmeier345.github.io/projects/one_armed_samurai/Projects/One_Armed_Samurai/cover.png" class="cover-image" />
+      
+
+    <h2><a href="https://markusmeier345.github.io/projects/one_armed_samurai/">One Armed Samurai</h2></a>
+    <div class ="date">
+        <time datetime="2025-01-09 12:35:31 &#43;0200 &#43;0200">Jan 9, 2025</time>  
+    </div>
+    <p>One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</p>
 </div>
 
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+
+
+<div>
+     
+      
+
+    <h2><a href="https://markusmeier345.github.io/projects/waldeinsamkeit/">Waldeinsamkeit</h2></a>
+    <div class ="date">
+        <time datetime="2024-06-14 00:00:00 &#43;0000 UTC">Jun 14, 2024</time>  
+    </div>
+    <p>This Page is WIP</p>
+</div>
+
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+
+
+<div>
+     
+      
+     <img src="https://markusmeier345.github.io/projects/void_walk/cover.png" class="cover-image" />
+      
+
+    <h2><a href="https://markusmeier345.github.io/projects/void_walk/">Void Walk</h2></a>
+    <div class ="date">
+        <time datetime="2022-10-01 00:00:00 &#43;0000 UTC">Oct 1, 2022</time>  
+    </div>
+    <p>The project &ldquo;Void Walk&rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story.</p>
+</div>
+
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+
+           
+ 
+
+
+            
+
+ 
+
+ 
+
+</section>
+
+
+
+
+<section id="single">
+
+    <p id="statement">
+        "Art is a language that can communicate beyond words, especially with interactive formats such as Video Games, on an emotional and formal Level.
+        As a Game Designer I can create a world, a experience, which allows to take on a new perspective. I have experienced how Video Games have changed me, have raised me, have educated me.
+        I am fascinated by the potential of Video Games as a medium of Art and strive to to enable the same kind of experience, especially for younger genertaions."
+    </p>
+
+</section>
+
+
+
+
+
+<section id="single" style="background-color: #f1f1f1;">
+    <h1>Recents Posts</h1>
+    <div class="grid-container-list">
+
+         
+        
+        
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /projects/portfolio/images/coding-%20example.png ');">
+                    <div class="post-text">
+                        <h3><a href='/projects/portfolio/'>Portfolio with Hugo</a></h3>
+                        <p id="date">Jun 2, 2025</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /projects/one_armed_samurai/Projects/One_Armed_Samurai/cover.png ');">
+                    <div class="post-text">
+                        <h3><a href='/projects/one_armed_samurai/'>One Armed Samurai</a></h3>
+                        <p id="date">Jan 9, 2025</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /devlogs/one_armed_samurai/post_003/HighresScreenshot00000.png ');">
+                    <div class="post-text">
+                        <h3><a href='/devlogs/one_armed_samurai/post_003/'>Devlog 3: Enemies and Darkness</a></h3>
+                        <p id="date">Nov 26, 2024</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /devlogs/one_armed_samurai/post_002/Screenshot%20from%202024-10-23%2019-06-37.png ');">
+                    <div class="post-text">
+                        <h3><a href='/devlogs/one_armed_samurai/post_002/'>Devlog 2: Visual Endeavors</a></h3>
+                        <p id="date">Nov 4, 2024</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /devlogs/one_armed_samurai/post_001/0423_yusuke_2.png ');">
+                    <div class="post-text">
+                        <h3><a href='/devlogs/one_armed_samurai/post_001/'>Devlog 1: Introduction to my Bachelor Thesis</a></h3>
+                        <p id="date">Jul 16, 2024</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+            
+                <div class="post-background" style="background-color: rgba(0,0,0,0.2);">
+                    <div class="post-text">
+                        <h3><a href='/projects/waldeinsamkeit/'>Waldeinsamkeit</a></h3>
+                        <p id="date">Jun 14, 2024</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /projects/back_to_the_roots/cover.png ');">
+                    <div class="post-text">
+                        <h3><a href='/projects/back_to_the_roots/'>Back to the Roots</a></h3>
+                        <p id="date">Dec 1, 2023</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+            
+                <div class="post-background" style="background-color: rgba(0,0,0,0.2);">
+                    <div class="post-text">
+                        <h3><a href='/video-projects/concerts-with-wedigit/'>Concerts with WeDigIt</a></h3>
+                        <p id="date">Dec 1, 2023</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /projects/dont_look_at_medusa/cover.png ');">
+                    <div class="post-text">
+                        <h3><a href='/projects/dont_look_at_medusa/'>Dont Look at Medusa</a></h3>
+                        <p id="date">Oct 1, 2023</p>
+                    </div>
+                </div>
+             
+
+        
+            
+            
+            
+             
+                
+                <div class="post-background" style="background-image: url(' /projects/card_game/cover.png ');">
+                    <div class="post-text">
+                        <h3><a href='/projects/card_game/'>Card Game</a></h3>
+                        <p id="date">Mar 1, 2023</p>
+                    </div>
+                </div>
+             
+
+         
+    </div>
+<a href="/archive"><p style="text-align: center;">See more</p></a>
+</section>
+
+
+
+
     </main>
-    
+
     <footer id="footer">
     
         <div id="social">
@@ -278,9 +642,177 @@
         Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
       </div>
     
+    <a href="/privacy-policy">Privacy Policy</a>
+    <br>
+    <a href="#" onclick="eraseCookie('consent-settings'); location.reload();">reset cookies consent banner</a>
 </footer>
 
 
+
+    <style>
+    #consent-notice {padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+    #consent-notice span {margin-right: 1rem;}
+    #consent-notice button {cursor: pointer; display: inline-block; width: auto;}
+    #consent-notice span a {color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.5);}
+    #consent-notice button.btn {margin-left: 0.5rem;}
+    #consent-notice button.btn.manage-consent {background: rgba(255,255,255,0.1); font-weight: normal;}
+    
+    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
+    #consent-overlay.active {display: flex;}
+    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
+    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
+    #consent-overlay > div > div:last-child {margin: 0;}
+    #consent-overlay h3 {padding-top: 0;}
+    #consent-overlay input {margin-top: 0.3rem;}
+    #consent-overlay label {display: block;}
+    #consent-overlay .btn {margin-right: 0.5rem;}
+    #consent-overlay button.btn.save-consent {background: rgba(0,0,0,0.6); font-weight: normal;}
+
+    @media (max-width: 767px) {
+        #consent-overlay > div {padding: 1.75rem 1rem;}
+        #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
+        #consent-notice button.btn {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="consent-notice"><span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span><button class="btn manage-consent">Manage preferences</button><button onclick="window.location.href='/goodbye.html';">Deny</button><button class="btn approve-consent">Allow</button></div>
+<div id="consent-overlay">
+    <div>
+        
+            <div>
+                <input type="checkbox" id="item0" value="1" name="item0" checked disabled />
+                <label for="item0">
+                    <h3>Youtube (funtional)</h3>
+                    <p>This is necessary to embed Youtube Videos. Cookies will only be set after clicking on a video.</p>
+                </label>
+            </div>
+        
+        <div>
+            <button id="save-consent" class="btn save-consent" data-consentvalue="">Save preferences</button>
+            <button class="btn approve-consent">Allow all</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    const scripts = [];
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue,31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = value;
+                document.body.appendChild(s);
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = "";
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+    elements.forEach(function(el) {
+        el.checked = false;
+    });
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
+            this.classList.toggle('active');
+        }
+    });
+</script>
+
+
+    
+        <script type="text/javascript" src="/js/"></script>
+    
 
 
 

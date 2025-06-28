@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Markus Meier</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Markus Meier</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio with Hugo</title>
+      <link>http://localhost:1313/posts/portfolio-with-hugo/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/portfolio-with-hugo/</guid>
+      <description>Project Outline 🔗Choosing a Web Tool 🔗The majority of the internet is build with wordpress, but I never managed to be happy with what it offers and how it works.</description>
+    </item>
+    <item>
+      <title>One Armed Samurai</title>
+      <link>http://localhost:1313/posts/one-armed-samurai/</link>
+      <pubDate>Thu, 09 Jan 2025 12:35:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/one-armed-samurai/</guid>
+      <description>One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</description>
+    </item>
+    <item>
+      <title>Devlog 3: Enemies and Darkness</title>
+      <link>http://localhost:1313/posts/devlog-3-enemies-and-darkness/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/devlog-3-enemies-and-darkness/</guid>
+      <description>In the past few weeks I have worked on some of the horror genre aspects of the game.</description>
+    </item>
+    <item>
+      <title>Devlog 2: Visual Endeavors</title>
+      <link>http://localhost:1313/posts/devlog-2-visual-endeavors/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/devlog-2-visual-endeavors/</guid>
+      <description>In this Developer Diary I will focus on some of the visuals I have created and design choices.</description>
+    </item>
+    <item>
+      <title>Devlog 1: Introduction to my Bachelor Thesis</title>
+      <link>http://localhost:1313/posts/devlog-1-introduction-to-my-bachelor-thesis/</link>
+      <pubDate>Tue, 16 Jul 2024 11:14:58 +0200</pubDate>
+      <guid>http://localhost:1313/posts/devlog-1-introduction-to-my-bachelor-thesis/</guid>
+      <description>This is the first post on my Developer Diary of my Bachelor Thesis, a game currently under the working title of &amp;ldquo;One Armed Samurai&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Post_001</title>
+      <link>http://localhost:1313/posts/post_001/</link>
+      <pubDate>Tue, 16 Jul 2024 11:14:58 +0200</pubDate>
+      <guid>http://localhost:1313/posts/post_001/</guid>
+      <description>some text</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/about-me/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/about-me/</guid>
+      <description>Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games.</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/posts/archive/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/archive/</guid>
+      <description>This is the archive that lists all posts</description>
+    </item>
+    <item>
+      <title>Impressum</title>
+      <link>http://localhost:1313/posts/impressum/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/impressum/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/posts/privacy-policy/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>http://localhost:1313/posts/privacy-policy/</guid>
+      <description>1. Information I Do Not Collect 🔗 This website does not use cookies on our website for tracking, analytics, or any other purpose, except as explicitly noted below for embedded content.</description>
+    </item>
+    <item>
+      <title>Waldeinsamkeit</title>
+      <link>http://localhost:1313/posts/waldeinsamkeit/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/waldeinsamkeit/</guid>
+      <description>Project Outline 🔗Short description</description>
+    </item>
+    <item>
+      <title>AMVs</title>
+      <link>http://localhost:1313/posts/amvs/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/amvs/</guid>
+      <description>AMVs stands for either Anime Music Video or Animated Music Video.</description>
+    </item>
+    <item>
+      <title>Back to the Roots</title>
+      <link>http://localhost:1313/posts/back-to-the-roots/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/back-to-the-roots/</guid>
+      <description>This Project was made in one month as a submission for the Game Off 2023 Gamejam.</description>
+    </item>
+    <item>
+      <title>Dont Look at Medusa</title>
+      <link>http://localhost:1313/posts/dont-look-at-medusa/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dont-look-at-medusa/</guid>
+      <description>Dont’t Look at Medusa is an experimetl VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of VR Gameplay possibilities.</description>
+    </item>
+    <item>
+      <title>Card Game</title>
+      <link>http://localhost:1313/posts/card-game/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/card-game/</guid>
+      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine.</description>
+    </item>
+    <item>
+      <title>Void Walk</title>
+      <link>http://localhost:1313/posts/void-walk/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/void-walk/</guid>
+      <description>The project &amp;ldquo;Void Walk&amp;rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story.</description>
+    </item>
+    <item>
+      <title>emotion gap</title>
+      <link>http://localhost:1313/posts/emotion-gap/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/emotion-gap/</guid>
+      <description>This is my first Game Project and what got me into Game Design.</description>
+    </item>
+  </channel>
+</rss>

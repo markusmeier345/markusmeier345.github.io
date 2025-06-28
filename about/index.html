@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>About | Markus Meier</title>
+    <title>About Me | Markus Meier</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="This section is in construction. Please return another time.">
+<meta name="description" content="Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games.">
 <meta name="generator" content="Hugo 0.127.0">
 
 
@@ -40,11 +40,14 @@
 
   <body>
     <nav class="navigation">
-	<a href="/">Home</a>
-	<a href="/tags/video-projects">Video Projects</a>
-	<a href="/tags/projects">Projects</a>
-	<a href="/about">About Me</a>
-
+	<div>
+		<a href="/">Home</a>
+		<a href="/categories/projects">Projects</a>
+		<a href="/categories/devlogs">DevLogs</a>
+		<a href="/categories/video-projects">Video Projects</a>
+		<a href="/archive">Archive</a>
+		<a href="/about">About Me</a>
+	</div>
 </nav>
 
 
@@ -52,7 +55,7 @@
       
 
 <section id="single">
-    <h1 class="title">About</h1>
+    <h1 class="title">About Me</h1>
 
     <div class="tip">
         <time datetime="2024-07-06 12:35:31 &#43;0200 CEST">Jul 6, 2024</time>
@@ -60,13 +63,13 @@
           ·
         </span>
         <span>
-          9 words
+          288 words
         </span>
         <span class="split">
           ·
         </span>
         <span>
-          1 minute read
+          2 minute read
         </span>
     </div>
 
@@ -80,9 +83,60 @@
 
 
     <div class="content">
-      <p>This section is in construction. Please return another time.</p>
+      <p>Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games.
+At this time I am pursuing a Bachelors Degree, but am also planning to enroll for a Master.
+My journey started with drawing comics, moving forward into video editing, which then lead to its logcial combination: Animation. <br></p>
+<p>When I enrolled into University I was set foof into pursuing this. I would dabble with Unity every once in a while but would never get the grip of it.
+Fortunately I met amazing Tutors and Professors that introduced me to Game Design and the Unreal Engine and by now I am obsessed with it. &laquo;br&gt;</p>
+<p>I am still fascinated by narrative driven experiences and have great appreciation for well executed animation, but also love to think about what makes something fun and enjoyable.
+My goal is to be able to construct experiences that allows players to view the world from a differnt perspective. I believe this is the great strength of video games as an art form. <br></p>
+<p><strong>Bachelor of Arts</strong> - 2019 - exp. 2025 <br>
+University of Arts Bremen</p>
+<ul>
+<li>Department: Digital Media</li>
+<li>Focus: Virtual Reality and Game Design</li>
+<li>Other Topics: Generative Art, 2D Animation, Media Science</li>
+</ul>
+<hr>
+<p><strong>Student Assistant</strong> - During studies <br>
+University of Arts Bremen</p>
+<ul>
+<li>Research Project: WeDigIt!, Innovation and Digitaliztion</li>
+<li>Tutorial</li>
+<li>Supporting a Guest Lecturer</li>
+</ul>
+<hr>
+<p><strong>Diploma Video Producer (not state approved)</strong> - 2018 - 2019 <br>
+Deutsche Pop Bremen</p>
+<ul>
+<li>Cameraassistent</li>
+<li>Director of Photography</li>
+<li>Video Editiing</li>
+<li>Management</li>
+</ul>
+<hr>
+<p><strong>Newspaper Distributor</strong> - 2018 - 2019 <br>
+Print Logisitk Bremen GmbH</p>
+<hr>
+<p><strong>Temporary Worker</strong> - 2017 <br>
+PK Personal Korrekt GmbH</p>
+<ul>
+<li>Variety of Jobs</li>
+<li>e.g. Warehouse logistics</li>
+</ul>
+<hr>
+<p><strong>Abitur (German university entrace qualification)</strong> - 2017 <br>
+Wilhelm Wagenfeld Schule</p>
+<ul>
+<li>Advanced Subjects: Egnlish &amp; Multimedia</li>
+</ul>
+<hr>
+<p><a href="/impressum"><p style="text-align: center;">Impressum</p></a></p>
 
     </div>
+
+    
+    
 
     
     
@@ -92,7 +146,7 @@
 
 
     </main>
-    
+
     <footer id="footer">
     
         <div id="social">
@@ -139,9 +193,177 @@
         Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
       </div>
     
+    <a href="/privacy-policy">Privacy Policy</a>
+    <br>
+    <a href="#" onclick="eraseCookie('consent-settings'); location.reload();">reset cookies consent banner</a>
 </footer>
 
 
+
+    <style>
+    #consent-notice {padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+    #consent-notice span {margin-right: 1rem;}
+    #consent-notice button {cursor: pointer; display: inline-block; width: auto;}
+    #consent-notice span a {color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.5);}
+    #consent-notice button.btn {margin-left: 0.5rem;}
+    #consent-notice button.btn.manage-consent {background: rgba(255,255,255,0.1); font-weight: normal;}
+    
+    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
+    #consent-overlay.active {display: flex;}
+    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
+    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
+    #consent-overlay > div > div:last-child {margin: 0;}
+    #consent-overlay h3 {padding-top: 0;}
+    #consent-overlay input {margin-top: 0.3rem;}
+    #consent-overlay label {display: block;}
+    #consent-overlay .btn {margin-right: 0.5rem;}
+    #consent-overlay button.btn.save-consent {background: rgba(0,0,0,0.6); font-weight: normal;}
+
+    @media (max-width: 767px) {
+        #consent-overlay > div {padding: 1.75rem 1rem;}
+        #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
+        #consent-notice button.btn {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="consent-notice"><span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span><button class="btn manage-consent">Manage preferences</button><button onclick="window.location.href='/goodbye.html';">Deny</button><button class="btn approve-consent">Allow</button></div>
+<div id="consent-overlay">
+    <div>
+        
+            <div>
+                <input type="checkbox" id="item0" value="1" name="item0" checked disabled />
+                <label for="item0">
+                    <h3>Youtube (funtional)</h3>
+                    <p>This is necessary to embed Youtube Videos. Cookies will only be set after clicking on a video.</p>
+                </label>
+            </div>
+        
+        <div>
+            <button id="save-consent" class="btn save-consent" data-consentvalue="">Save preferences</button>
+            <button class="btn approve-consent">Allow all</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    const scripts = [];
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue,31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = value;
+                document.body.appendChild(s);
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = "";
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+    elements.forEach(function(el) {
+        el.checked = false;
+    });
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
+            this.classList.toggle('active');
+        }
+    });
+</script>
+
+
+    
+        <script type="text/javascript" src="/js/"></script>
+    
 
 
 

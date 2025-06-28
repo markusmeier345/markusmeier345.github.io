@@ -6,27 +6,34 @@
     <description>Recent content in Tags on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 12:35:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>One Armed Samurai</title>
-      <link>https://markusmeier345.github.io/tags/one-armed-samurai/</link>
+      <title>CSS</title>
+      <link>https://markusmeier345.github.io/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/tags/one-armed-samurai/</guid>
+      <guid>https://markusmeier345.github.io/tags/css/</guid>
       <description></description>
     </item>
     <item>
-      <title>Projects</title>
-      <link>https://markusmeier345.github.io/tags/projects/</link>
+      <title>HTML</title>
+      <link>https://markusmeier345.github.io/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/tags/projects/</guid>
+      <guid>https://markusmeier345.github.io/tags/html/</guid>
       <description></description>
     </item>
     <item>
-      <title>University Projects</title>
-      <link>https://markusmeier345.github.io/tags/university-projects/</link>
+      <title>Hugo</title>
+      <link>https://markusmeier345.github.io/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/tags/university-projects/</guid>
+      <guid>https://markusmeier345.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unreal Engine 5</title>
+      <link>https://markusmeier345.github.io/tags/unreal-engine-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/unreal-engine-5/</guid>
       <description></description>
     </item>
     <item>
@@ -37,17 +44,24 @@
       <description></description>
     </item>
     <item>
-      <title>Devlogs</title>
-      <link>https://markusmeier345.github.io/tags/devlogs/</link>
+      <title>Bachelor Thesis</title>
+      <link>https://markusmeier345.github.io/tags/bachelor-thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/tags/devlogs/</guid>
+      <guid>https://markusmeier345.github.io/tags/bachelor-thesis/</guid>
       <description></description>
     </item>
     <item>
-      <title>Personal Projects</title>
-      <link>https://markusmeier345.github.io/tags/personal-projects/</link>
+      <title>VR</title>
+      <link>https://markusmeier345.github.io/tags/vr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/tags/personal-projects/</guid>
+      <guid>https://markusmeier345.github.io/tags/vr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Off 2023</title>
+      <link>https://markusmeier345.github.io/tags/game-off-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/game-off-2023/</guid>
       <description></description>
     </item>
     <item>
@@ -58,10 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>Video Projects</title>
-      <link>https://markusmeier345.github.io/tags/video-projects/</link>
+      <title>Unreal Engine 4</title>
+      <link>https://markusmeier345.github.io/tags/unreal-engine-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/tags/video-projects/</guid>
+      <guid>https://markusmeier345.github.io/tags/unreal-engine-4/</guid>
       <description></description>
     </item>
   </channel>

@@ -6,8 +6,15 @@
     <description>Recent content on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 12:35:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolio with Hugo</title>
+      <link>https://markusmeier345.github.io/projects/portfolio/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/portfolio/</guid>
+      <description>Project Outline 🔗Choosing a Web Tool 🔗The majority of the internet is build with wordpress, but I never managed to be happy with what it offers and how it works.</description>
+    </item>
     <item>
       <title>One Armed Samurai</title>
       <link>https://markusmeier345.github.io/projects/one_armed_samurai/</link>
@@ -37,11 +44,39 @@
       <description>This is the first post on my Developer Diary of my Bachelor Thesis, a game currently under the working title of &amp;ldquo;One Armed Samurai&amp;rdquo;.</description>
     </item>
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://markusmeier345.github.io/about/</link>
       <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
       <guid>https://markusmeier345.github.io/about/</guid>
-      <description>This section is in construction. Please return another time.</description>
+      <description>Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games.</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>https://markusmeier345.github.io/archive/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/archive/</guid>
+      <description>This is the archive that lists all posts</description>
+    </item>
+    <item>
+      <title>Impressum</title>
+      <link>https://markusmeier345.github.io/impressum/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/impressum/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://markusmeier345.github.io/privacy-policy/</link>
+      <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
+      <guid>https://markusmeier345.github.io/privacy-policy/</guid>
+      <description>1. Information I Do Not Collect 🔗 This website does not use cookies on our website for tracking, analytics, or any other purpose, except as explicitly noted below for embedded content.</description>
+    </item>
+    <item>
+      <title>Waldeinsamkeit</title>
+      <link>https://markusmeier345.github.io/projects/waldeinsamkeit/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/waldeinsamkeit/</guid>
+      <description>This Page is WIP</description>
     </item>
     <item>
       <title>Back to the Roots</title>
@@ -49,6 +84,13 @@
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/projects/back_to_the_roots/</guid>
       <description>This Project was made in one month as a submission for the Game Off 2023 Gamejam.</description>
+    </item>
+    <item>
+      <title>Concerts with WeDigIt</title>
+      <link>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</guid>
+      <description>WeDigIt is a project of the University of Arts Bremen which experiments to innovate, digitalize and extent study and teaching.</description>
     </item>
     <item>
       <title>Dont Look at Medusa</title>
@@ -79,9 +121,9 @@
       <description>This is my first Game Project and what got me into Game Design.</description>
     </item>
     <item>
-      <title>AMVs / Anime Music Videos</title>
+      <title>AMVs</title>
       <link>https://markusmeier345.github.io/video-projects/amvs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/video-projects/amvs/</guid>
       <description>AMVs stands for either Anime Music Video or Animated Music Video.</description>
     </item>

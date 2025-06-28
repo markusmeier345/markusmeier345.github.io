@@ -6,6 +6,49 @@
     <description>Recent content in Categories on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Projects</title>
+      <link>https://markusmeier345.github.io/categories/personal-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/categories/personal-projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://markusmeier345.github.io/categories/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/categories/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>University Projects</title>
+      <link>https://markusmeier345.github.io/categories/university-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/categories/university-projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devlogs</title>
+      <link>https://markusmeier345.github.io/categories/devlogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/categories/devlogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gamejam</title>
+      <link>https://markusmeier345.github.io/categories/gamejam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/categories/gamejam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video Projects</title>
+      <link>https://markusmeier345.github.io/categories/video-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/categories/video-projects/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

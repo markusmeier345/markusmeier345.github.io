@@ -40,11 +40,14 @@
 
   <body>
     <nav class="navigation">
-	<a href="/">Home</a>
-	<a href="/tags/video-projects">Video Projects</a>
-	<a href="/tags/projects">Projects</a>
-	<a href="/about">About Me</a>
-
+	<div>
+		<a href="/">Home</a>
+		<a href="/categories/projects">Projects</a>
+		<a href="/categories/devlogs">DevLogs</a>
+		<a href="/categories/video-projects">Video Projects</a>
+		<a href="/archive">Archive</a>
+		<a href="/about">About Me</a>
+	</div>
 </nav>
 
 
@@ -100,10 +103,24 @@ The player is also restricted in what he can see, based on what the character wo
 <p>One Armed Samurai is a horror game in which we control a character who only has one arm. The fear of the unknown, what we do not perceive and what could be, is the approach to involve this theme in a horror game. This fear is complemented by the vulnerability of the character.</p>
 <p>There are two levels in the game, each with two different variations. These differ in the camera perspectives that are taken. The player is limited in what the character would be able see, things that take place outside this area are stylized or unrecognizable. There are also enemies that interact with this field of vision by changing their behavior based on whether they are being looked at or not. Darkness and the fear of the unknown go hand in hand, so it is not always possible for the player to use a lamp as the character only has one hand.</p>
 <p>The game was designed with a larger coherent narrative in mind, however this is not directly addressed in this version, but serves as a bafoundation for design decisions. The actual realization of this narrative is subject to future goals and is manifested in a design document. The idea is not just to change perspectives in order to view existing content in a new context, but to subtly change the content aswell. For example not only the perspective could be changed, but also the character when a first person perspective is taken.</p>
-<p>Gameplay Video:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I6La_z-Hv3k?si=M6uRwvA99z4NrUZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p>Video Essay:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pHg5g7VOjgo?si=xK8Ga7Dm5YoPb-jz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Gameplay Video:
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/I6La_z-Hv3k?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+</p>
+<p>Video Essay:
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/pHg5g7VOjgo?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+</p>
 <h2 id="gallery">Gallery <a href="#gallery" class="anchor">🔗</a></h2>
 <link rel="stylesheet" href=/css/hugo-easy-gallery.css />
 
@@ -213,13 +230,22 @@ The player is also restricted in what he can see, based on what the character wo
     </div>
 
     
+    
         <div class="tags">
+          <p>Tags:</p>
             
-                <a href="https://markusmeier345.github.io/tags/one-armed-samurai">One Armed Samurai</a>
+                <a href="https://markusmeier345.github.io/tags/unreal-engine-5">Unreal Engine 5</a>
             
-                <a href="https://markusmeier345.github.io/tags/projects">Projects</a>
+        </div>
+    
+
+    
+        <div class="tags">
+          <p>Categories:</p>
             
-                <a href="https://markusmeier345.github.io/tags/university-projects">University Projects</a>
+              <a href="https://markusmeier345.github.io/categories/projects">Projects</a>
+            
+              <a href="https://markusmeier345.github.io/categories/university-projects">University Projects</a>
             
         </div>
     
@@ -230,7 +256,7 @@ The player is also restricted in what he can see, based on what the character wo
 
 
     </main>
-    
+
     <footer id="footer">
     
         <div id="social">
@@ -277,9 +303,177 @@ The player is also restricted in what he can see, based on what the character wo
         Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
       </div>
     
+    <a href="/privacy-policy">Privacy Policy</a>
+    <br>
+    <a href="#" onclick="eraseCookie('consent-settings'); location.reload();">reset cookies consent banner</a>
 </footer>
 
 
+
+    <style>
+    #consent-notice {padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);}
+    #consent-notice span {margin-right: 1rem;}
+    #consent-notice button {cursor: pointer; display: inline-block; width: auto;}
+    #consent-notice span a {color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.5);}
+    #consent-notice button.btn {margin-left: 0.5rem;}
+    #consent-notice button.btn.manage-consent {background: rgba(255,255,255,0.1); font-weight: normal;}
+    
+    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
+    #consent-overlay.active {display: flex;}
+    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
+    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
+    #consent-overlay > div > div:last-child {margin: 0;}
+    #consent-overlay h3 {padding-top: 0;}
+    #consent-overlay input {margin-top: 0.3rem;}
+    #consent-overlay label {display: block;}
+    #consent-overlay .btn {margin-right: 0.5rem;}
+    #consent-overlay button.btn.save-consent {background: rgba(0,0,0,0.6); font-weight: normal;}
+
+    @media (max-width: 767px) {
+        #consent-overlay > div {padding: 1.75rem 1rem;}
+        #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
+        #consent-notice button.btn {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="consent-notice"><span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span><button class="btn manage-consent">Manage preferences</button><button onclick="window.location.href='/goodbye.html';">Deny</button><button class="btn approve-consent">Allow</button></div>
+<div id="consent-overlay">
+    <div>
+        
+            <div>
+                <input type="checkbox" id="item0" value="1" name="item0" checked disabled />
+                <label for="item0">
+                    <h3>Youtube (funtional)</h3>
+                    <p>This is necessary to embed Youtube Videos. Cookies will only be set after clicking on a video.</p>
+                </label>
+            </div>
+        
+        <div>
+            <button id="save-consent" class="btn save-consent" data-consentvalue="">Save preferences</button>
+            <button class="btn approve-consent">Allow all</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    const scripts = [];
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue,31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = value;
+                document.body.appendChild(s);
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = "";
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+    elements.forEach(function(el) {
+        el.checked = false;
+    });
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
+            this.classList.toggle('active');
+        }
+    });
+</script>
+
+
+    
+        <script type="text/javascript" src="/js/"></script>
+    
 
 
 
