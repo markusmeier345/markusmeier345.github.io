@@ -6,8 +6,15 @@
     <description>Recent content on Markus Meier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devlog: Spellcrafting v0.2</title>
+      <link>https://markusmeier345.github.io/devlogs/spellcrafting/post_001/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/spellcrafting/post_001/</guid>
+      <description>Spellcrafting is my Godot learning project.</description>
+    </item>
     <item>
       <title>Portfolio with Hugo</title>
       <link>https://markusmeier345.github.io/projects/portfolio/</link>
