@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Markus Meier</title>
+    <title>Learning Shaders | Markus Meier</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="My Portfolio">
+<meta name="description" content="I have been learning GLSL.">
 <meta name="generator" content="Hugo 0.127.0">
 
 
@@ -34,11 +34,6 @@
 
 
 
-  
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Markus Meier" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Markus Meier" />
-  
-
 
 
   </head>
@@ -59,555 +54,60 @@
     <main class="main">
       
 
-
-<style>
-    body {
-        margin: 0;
-    }
-
-    .hero-image {
-        background-image: linear-gradient(to top, rgba(245, 245, 245,1), rgba(0,0,0,0)),url("images/showreel_v6.gif");
-        height: round(up, 80vh, 25px);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-
-    #hero-text {
-        text-align: center;
-        font-size: 5vw;
-        margin-top: 0;
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    h1  {
-        text-align: center;
-        padding-top: 5%;
-    }
-
-    #single{
-        max-width: none;
-        padding: 0;
-        margin-bottom: 5%;
-        padding-bottom: 5%;   
-    }
-
-    .cover-image {
-        height: auto;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-columns:  auto 65% ;
-    }
-
-    #profile {
-        padding: 0 0 0 15vw;
-    }
-
-    .profile .avatar {
-    width: 75%;
-    height: auto;
-    }
-
-    .grid-container > div {
-        padding: 5vw;
-        padding-right: 15vw;
-        padding-left: 15vw;
-    }
-
-    .grid-container-projects {
-        background-color: #f1f1f1;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 5vw 0vw 5vw;
-    }
-
-    .grid-container-projects > div {
-        aspect-ratio: 1/1;
-        background-color: rgb(245, 245, 245);
-        padding: 25px;
-        margin: 25px;
-    }
-
-    #statement {
-        font-style: italic;
-        font-size: 22px;
-        margin: 10vw;
-        background-color: white;
-        padding: 5vw;
-        box-shadow: 10px 10px 5px #aaaaaa;
-    }
-
-    @media only screen and (max-width: 1024px) {
-    .grid-container {
-        grid-template-columns:  auto;
-        }
-    #profile {
-        padding: 0 15vw;
-        }
-
-    .grid-container-projects {
-        grid-template-columns: 100%;  
-    }
-    }
-
-    @media only screen and (max-width: 425px) {
-    #statement {
-        font-size: 14px;
-    }
-    }
-
-
-</style>
-
-
-<section class="hero-image">
-    <div>
-        <h1 id="hero-text">Welcome</h1>
-    </div>
-</section>
-
-
 <section id="single">
-    <div class="grid-container">
-        <div id="profile">
-            <header class="profile">
-    
-        <img class="avatar" alt="avatar" src="/images/profilepic.jpg" />
-    
+    <h1 class="title">Learning Shaders</h1>
 
-    <p style="font-size: x-small; margin: 0px;">
-      Photo by <a href="https://www.instagram.com/byjenniferpfeifer/" target="_blank">Jennifer Pfeifer
-    </a></p>
-
-    <h1>Markus Meier</h1>
-    
-      <h2>Game Designer, Art Enthusiast &amp; Professional Rubberduck</h2>
-    
-</header>
-        </div>
-        <div>
-            <div style="columns: 250px 2;">
-                <p style="margin-top: 0;">Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games. 
-                    At this time I am pursuing a Bachelors Degree, but am also planning to enroll for a Master.</p>
-                <p>My journey started with drawing comics, moving forward into video editing, which then lead to its logcial combination: Animation. 
-                    When I enrolled into University I was set foof into pursuing this. I would dabble with Unity every once in a while but would never get the grip of it.</p>
-                <p>Fortunately I met amazing Tutors and Professors that introduced me to Game Design and the Unreal Engine and by now I am obsessed with it.</p>
-                <p>I am still fascinated by narrative driven experiences and have great appreciation for well executed animation, but also love to think about what makes something fun and enjoyable. 
-                    My goal is to be able to construct experiences that allows players to view the world from a differnt perspective. I believe this is the great strength of video games as an art form.</p>
-            </div>
-        </div>
+    <div class="tip">
+        <time datetime="2025-10-14 00:00:00 &#43;0000 UTC">Oct 14, 2025</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          386 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          2 minute read
+        </span>
     </div>
-</section>
 
-<section id="single" style="background-color: #f1f1f1;">
-<h1>Highlighted Projects</h1>
-
-<div class="grid-container-projects">
-       
-
-           
- 
+    
+    
+        
+  
 
 
-            
-
- 
+    
 
 
-           
- 
+    <div class="content">
+      <p>I have been learning GLSL. Besides my classes I have been working myself through <a href="https://thebookofshaders.com/">thebookofshader.com</a>.</p>
+<p>In chapter 7 the focus lies on creating shapes. One of the first exercises is to create an image in the style of Piet Mondrian. At first this seems very simple, <em>&ldquo;It&rsquo;s just a couple of rectangles&rdquo;</em>, but it turned out to be a very valuable lesson and I&rsquo;m glad I pulled through and didn&rsquo;t skip it.</p>
+<p>The goal of learning GLSL is not just adding another skillset, but learning to think more technical. What&rsquo;s fun about shaders, I guess math in general, is that there are multiple paths to the same solution. Thinking more technical means getting comfortable with the different paths and learning their benefits and downsides.</p>
+<p>Here is what I did for this exercise:</p>
+<p>First and foremost did I create a function to create a single rectangle. In a way it&rsquo;s all about defining the thickness of the outline. This was more or less provided in a previous example in the chapter.</p>
+<p>Since we are mainly working with the rectangles outline, I first tried to create and position multiple colored rectangles in a way that the outline overlap perfectly.
+This is were I started to ponder on how to approach this. This would work, but what if I wanted to change the thickness or the proportions of a rectangle? I would have to change everything for them to match.</p>
+<p>The second approach:
+Create multiple colored rectangles without outlines and use them as a &ldquo;background&rdquo; and sort of add the black lines on top.
+At first I created these lines as I previusly did. The position is defined by the thickness. But once more, what if I wanted to change the thickness?
+This was the moment something clicked in my brain, which encouraged me to make this blogpost. I can move the rectangles with simple uv operations. This way I can create a construct for a vertical and horizontal line as a variable and only apply the uv operation to place them. This made it much more easier to adapt and read.</p>
+<p>The final result isn&rsquo;t perfect as I haven&rsquo;t adapted the same principle with the colored rectangles. But I still wanted to share this <em>epiphany</em>.</p>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/WX2yRR?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+<p>If the embed doesn&rsquo;t work, you can find the final shader here: <a href="https://www.shadertoy.com/view/WX2yRR" target="_blank" rel="noopener">https://www.shadertoy.com/view/WX2yRR</a></p>
 
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
-
-
-<div>
-     
-      
-     <img src="https://markusmeier345.github.io/projects/one_armed_samurai/Projects/One_Armed_Samurai/cover.png" class="cover-image" />
-      
-
-    <h2><a href="https://markusmeier345.github.io/projects/one_armed_samurai/">One Armed Samurai</h2></a>
-    <div class ="date">
-        <time datetime="2025-01-09 12:35:31 &#43;0200 &#43;0200">Jan 9, 2025</time>  
     </div>
-    <p>One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</p>
-</div>
 
+    
+    
 
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
-
-
-<div>
-     
-      
-
-    <h2><a href="https://markusmeier345.github.io/projects/waldeinsamkeit/">Waldeinsamkeit</h2></a>
-    <div class ="date">
-        <time datetime="2024-06-14 00:00:00 &#43;0000 UTC">Jun 14, 2024</time>  
-    </div>
-    <p>This Page is WIP</p>
-</div>
-
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
-
-
-<div>
-     
-      
-     <img src="https://markusmeier345.github.io/projects/void_walk/cover.png" class="cover-image" />
-      
-
-    <h2><a href="https://markusmeier345.github.io/projects/void_walk/">Void Walk</h2></a>
-    <div class ="date">
-        <time datetime="2022-10-01 00:00:00 &#43;0000 UTC">Oct 1, 2022</time>  
-    </div>
-    <p>The project &ldquo;Void Walk&rdquo; was created with the intention of exploring a situation between life and death, aswell as exploring remembering and forgetting in a bizarre story.</p>
-</div>
-
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
-
-           
- 
-
-
-            
-
- 
-
- 
+    
+    
+    
 
 </section>
-
-
-
-
-<section id="single">
-
-    <p id="statement">
-        "Art is a language that can communicate beyond words, especially with interactive formats such as Video Games, on an emotional and formal Level.
-        As a Game Designer I can create a world, a experience, which allows to take on a new perspective. I have experienced how Video Games have changed me, have raised me, have educated me.
-        I am fascinated by the potential of Video Games as a medium of Art and strive to to enable the same kind of experience, especially for younger genertaions."
-    </p>
-
-</section>
-
-
-
-
-
-<section id="single" style="background-color: #f1f1f1;">
-    <h1>Recents Posts</h1>
-    <div class="grid-container-list">
-
-         
-        
-        
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /posts/learning-shaders/cover.png ');" style="cursor: pointer;" onclick="window.location='\/posts\/learning-shaders\/';">
-                    <div class="post-text">
-                        <h3><a href='/posts/learning-shaders/'>Learning Shaders</a></h3>
-                        <p id="date">Oct 14, 2025</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-            
-                <div class="post-background" style="background-color: rgba(0,0,0,0.2);" style="cursor: pointer;" onclick="window.location='\/posts\/learning-shaders\/';">
-                    <div class="post-text">
-                        <h3><a href='/posts/learning-shaders/'>Learning Shaders</a></h3>
-                        <p id="date">Oct 14, 2025</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /devlogs/spellcrafting/post_001/Screenshot%20from%202025-08-09%2011-14-11.png ');" style="cursor: pointer;" onclick="window.location='\/devlogs\/spellcrafting\/post_001\/';">
-                    <div class="post-text">
-                        <h3><a href='/devlogs/spellcrafting/post_001/'>Devlog: Spellcrafting v0.2</a></h3>
-                        <p id="date">Aug 11, 2025</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /projects/portfolio/images/coding-%20example.png ');" style="cursor: pointer;" onclick="window.location='\/projects\/portfolio\/';">
-                    <div class="post-text">
-                        <h3><a href='/projects/portfolio/'>Portfolio with Hugo</a></h3>
-                        <p id="date">Jun 2, 2025</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /projects/one_armed_samurai/Projects/One_Armed_Samurai/cover.png ');" style="cursor: pointer;" onclick="window.location='\/projects\/one_armed_samurai\/';">
-                    <div class="post-text">
-                        <h3><a href='/projects/one_armed_samurai/'>One Armed Samurai</a></h3>
-                        <p id="date">Jan 9, 2025</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /devlogs/one_armed_samurai/post_003/HighresScreenshot00000.png ');" style="cursor: pointer;" onclick="window.location='\/devlogs\/one_armed_samurai\/post_003\/';">
-                    <div class="post-text">
-                        <h3><a href='/devlogs/one_armed_samurai/post_003/'>Devlog 3: Enemies and Darkness</a></h3>
-                        <p id="date">Nov 26, 2024</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /devlogs/one_armed_samurai/post_002/Screenshot%20from%202024-10-23%2019-06-37.png ');" style="cursor: pointer;" onclick="window.location='\/devlogs\/one_armed_samurai\/post_002\/';">
-                    <div class="post-text">
-                        <h3><a href='/devlogs/one_armed_samurai/post_002/'>Devlog 2: Visual Endeavors</a></h3>
-                        <p id="date">Nov 4, 2024</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /devlogs/one_armed_samurai/post_001/0423_yusuke_2.png ');" style="cursor: pointer;" onclick="window.location='\/devlogs\/one_armed_samurai\/post_001\/';">
-                    <div class="post-text">
-                        <h3><a href='/devlogs/one_armed_samurai/post_001/'>Devlog 1: Introduction to my Bachelor Thesis</a></h3>
-                        <p id="date">Jul 16, 2024</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-            
-                <div class="post-background" style="background-color: rgba(0,0,0,0.2);" style="cursor: pointer;" onclick="window.location='\/projects\/waldeinsamkeit\/';">
-                    <div class="post-text">
-                        <h3><a href='/projects/waldeinsamkeit/'>Waldeinsamkeit</a></h3>
-                        <p id="date">Jun 14, 2024</p>
-                    </div>
-                </div>
-             
-
-        
-            
-            
-            
-             
-                
-                <div class="post-background" style="background-image: url(' /projects/back_to_the_roots/cover.png ');" style="cursor: pointer;" onclick="window.location='\/projects\/back_to_the_roots\/';">
-                    <div class="post-text">
-                        <h3><a href='/projects/back_to_the_roots/'>Back to the Roots</a></h3>
-                        <p id="date">Dec 1, 2023</p>
-                    </div>
-                </div>
-             
-
-         
-    </div>
-<a href="/archive"><p style="text-align: center;">See more</p></a>
-</section>
-
-
 
 
     </main>
