@@ -4,7 +4,7 @@
     <title>Markus Meier</title>
     <link>https://markusmeier345.github.io/</link>
     <description>Recent content on Markus Meier</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,13 @@
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/posts/learning-shaders-making-an-image-in-the-style-of-piet-mondrian/</guid>
       <description>I have been learning GLSL.</description>
+    </item>
+    <item>
+      <title>Devlog: Spellcrafting v0.3</title>
+      <link>https://markusmeier345.github.io/devlogs/spellcrafting/post_002/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/devlogs/spellcrafting/post_002/</guid>
+      <description>Spellcrafting is my Godot learning project.</description>
     </item>
     <item>
       <title>Devlog: Spellcrafting v0.2</title>
@@ -100,7 +107,7 @@
       <description>This Project was made in one month as a submission for the Game Off 2023 Gamejam.</description>
     </item>
     <item>
-      <title>Concerts with WeDigIt</title>
+      <title>Concerts and Performances with WeDigIt</title>
       <link>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</guid>
