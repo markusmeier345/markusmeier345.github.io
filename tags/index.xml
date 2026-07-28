@@ -6,12 +6,19 @@
     <description>Recent content in Tags on Markus Meier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity</title>
+      <link>https://markusmeier345.github.io/tags/unity/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/unity/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Godot</title>
       <link>https://markusmeier345.github.io/tags/godot/</link>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/tags/godot/</guid>
       <description></description>
     </item>
@@ -34,6 +41,13 @@
       <link>https://markusmeier345.github.io/tags/hugo/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video Essay</title>
+      <link>https://markusmeier345.github.io/tags/video-essay/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/video-essay/</guid>
       <description></description>
     </item>
     <item>
@@ -83,6 +97,27 @@
       <link>https://markusmeier345.github.io/tags/unreal-engine-4/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/tags/unreal-engine-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Animation</title>
+      <link>https://markusmeier345.github.io/tags/animation/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/animation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>University</title>
+      <link>https://markusmeier345.github.io/tags/university/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/university/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AMV</title>
+      <link>https://markusmeier345.github.io/tags/amv/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/tags/amv/</guid>
       <description></description>
     </item>
   </channel>

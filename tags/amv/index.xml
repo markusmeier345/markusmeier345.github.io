@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMV on Markus Meier</title>
+    <link>https://markusmeier345.github.io/tags/amv/</link>
+    <description>Recent content in AMV on Markus Meier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://markusmeier345.github.io/tags/amv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skydancers</title>
+      <link>https://markusmeier345.github.io/video-projects/skydancers/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/skydancers/</guid>
+      <description>With Sky dancers I tried a lot to wrap key points of the story of fullmetal alchemist and the struggle of the Elric brothers in an emotional fitting way with clear narrative flow.</description>
+    </item>
+    <item>
+      <title>I will definetly Change.</title>
+      <link>https://markusmeier345.github.io/video-projects/i-will-definetly-change/</link>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/i-will-definetly-change/</guid>
+      <description>From all the AMVs I ever made, this is probably my most favorite.</description>
+    </item>
+    <item>
+      <title>The Day of Heroes</title>
+      <link>https://markusmeier345.github.io/video-projects/the-day-of-heroes/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/the-day-of-heroes/</guid>
+      <description>This is first time I had combined the narrative of multiple scenes and shows with an overlapping theme to create a narrative of its own, instead of simply represnting the content of the original material.</description>
+    </item>
+    <item>
+      <title>War of Gods</title>
+      <link>https://markusmeier345.github.io/video-projects/war-of-gods/</link>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/war-of-gods/</guid>
+      <description>Some might say that the quality of my edits had reduced with this video.</description>
+    </item>
+    <item>
+      <title>Caped Baldy and Blonde Cyborg</title>
+      <link>https://markusmeier345.github.io/video-projects/caped-baldy-and-blonde-cyborg/</link>
+      <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/caped-baldy-and-blonde-cyborg/</guid>
+      <description>This project is somehow special but it is hard to pin point why.</description>
+    </item>
+    <item>
+      <title>Warlords of the Force</title>
+      <link>https://markusmeier345.github.io/video-projects/warlords-of-the-force/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/warlords-of-the-force/</guid>
+      <description>Statisitcally this is my most successfull video.</description>
+    </item>
+  </channel>
+</rss>

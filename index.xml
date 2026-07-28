@@ -6,8 +6,36 @@
     <description>Recent content on Markus Meier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crazy Pan Dog</title>
+      <link>https://markusmeier345.github.io/projects/crazy_pan_dog/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/crazy_pan_dog/</guid>
+      <description>In the first Semester of the Games Master we came together to make a small one button game.</description>
+    </item>
+    <item>
+      <title>One Armed Swordsman</title>
+      <link>https://markusmeier345.github.io/projects/one_armed_swordsman/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/one_armed_swordsman/</guid>
+      <description>After finishing my bachelor thesis I had realized that I need a change in direction.</description>
+    </item>
+    <item>
+      <title>Bless You</title>
+      <link>https://markusmeier345.github.io/projects/bless_you/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/bless_you/</guid>
+      <description>In the first Semester of the Games Master we made an internal gamejam to get to know each other.</description>
+    </item>
+    <item>
+      <title>Concerts and Performances with WeDigIt</title>
+      <link>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</guid>
+      <description>WeDigIt is a project of the University of Arts Bremen which experiments to innovate, digitalize and extent study and teaching.</description>
+    </item>
     <item>
       <title>Learning Shaders: making an image in the style of Piet Mondrian</title>
       <link>https://markusmeier345.github.io/posts/learning-shaders-making-an-image-in-the-style-of-piet-mondrian/</link>
@@ -17,16 +45,16 @@
     </item>
     <item>
       <title>Devlog: Spellcrafting v0.3</title>
-      <link>https://markusmeier345.github.io/devlogs/spellcrafting/post_002/</link>
+      <link>https://markusmeier345.github.io/projects/spellcrafting/devlog_02/</link>
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/devlogs/spellcrafting/post_002/</guid>
+      <guid>https://markusmeier345.github.io/projects/spellcrafting/devlog_02/</guid>
       <description>Spellcrafting is my Godot learning project.</description>
     </item>
     <item>
       <title>Devlog: Spellcrafting v0.2</title>
-      <link>https://markusmeier345.github.io/devlogs/spellcrafting/post_001/</link>
+      <link>https://markusmeier345.github.io/projects/spellcrafting/devlog_01/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/devlogs/spellcrafting/post_001/</guid>
+      <guid>https://markusmeier345.github.io/projects/spellcrafting/devlog_01/</guid>
       <description>Spellcrafting is my Godot learning project.</description>
     </item>
     <item>
@@ -37,31 +65,31 @@
       <description>Project Outline 🔗Choosing a Web Tool 🔗The majority of the internet is build with wordpress, but I never managed to be happy with what it offers and how it works.</description>
     </item>
     <item>
-      <title>One Armed Samurai</title>
-      <link>https://markusmeier345.github.io/projects/one_armed_samurai/</link>
-      <pubDate>Thu, 09 Jan 2025 12:35:31 +0200</pubDate>
-      <guid>https://markusmeier345.github.io/projects/one_armed_samurai/</guid>
-      <description>One armed Samurai is a short Demo of a horror game I made for my Bachelor Thesis about perspectives and perception.</description>
+      <title> Making a Horror Game for my Bachelor Thesis. </title>
+      <link>https://markusmeier345.github.io/video-projects/bachelor-essay/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/bachelor-essay/</guid>
+      <description>A Video Essay highlighting the emotional journey of creating my bachelor thesis.</description>
     </item>
     <item>
       <title>Devlog 3: Enemies and Darkness</title>
-      <link>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_003/</link>
+      <link>https://markusmeier345.github.io/projects/one_armed_samurai/post_003/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_003/</guid>
+      <guid>https://markusmeier345.github.io/projects/one_armed_samurai/post_003/</guid>
       <description>In the past few weeks I have worked on some of the horror genre aspects of the game.</description>
     </item>
     <item>
       <title>Devlog 2: Visual Endeavors</title>
-      <link>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_002/</link>
+      <link>https://markusmeier345.github.io/projects/one_armed_samurai/post_002/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_002/</guid>
+      <guid>https://markusmeier345.github.io/projects/one_armed_samurai/post_002/</guid>
       <description>In this Developer Diary I will focus on some of the visuals I have created and design choices.</description>
     </item>
     <item>
       <title>Devlog 1: Introduction to my Bachelor Thesis</title>
-      <link>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_001/</link>
+      <link>https://markusmeier345.github.io/projects/one_armed_samurai/post_001/</link>
       <pubDate>Tue, 16 Jul 2024 11:14:58 +0200</pubDate>
-      <guid>https://markusmeier345.github.io/devlogs/one_armed_samurai/post_001/</guid>
+      <guid>https://markusmeier345.github.io/projects/one_armed_samurai/post_001/</guid>
       <description>This is the first post on my Developer Diary of my Bachelor Thesis, a game currently under the working title of &amp;ldquo;One Armed Samurai&amp;rdquo;.</description>
     </item>
     <item>
@@ -69,7 +97,7 @@
       <link>https://markusmeier345.github.io/about/</link>
       <pubDate>Sat, 06 Jul 2024 12:35:31 +0200</pubDate>
       <guid>https://markusmeier345.github.io/about/</guid>
-      <description>Hey there, my name is Markus Meier and I am currently studying Digital Media in Germany to move forward my passion for Video Games.</description>
+      <description>Hey there, my name is Markus Meier and I am currently studying Games in Germany for a Master Degree with a focus on technical art and 3D.</description>
     </item>
     <item>
       <title>Archive</title>
@@ -97,7 +125,7 @@
       <link>https://markusmeier345.github.io/projects/waldeinsamkeit/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/projects/waldeinsamkeit/</guid>
-      <description>This Page is WIP, but feel free to check it out c:</description>
+      <description>Waldeinsmakeit is a narrative VR experience based on a small cabin and a poem by Heinrich Heine.</description>
     </item>
     <item>
       <title>Back to the Roots</title>
@@ -107,25 +135,11 @@
       <description>This Project was made in one month as a submission for the Game Off 2023 Gamejam.</description>
     </item>
     <item>
-      <title>Concerts and Performances with WeDigIt</title>
-      <link>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/video-projects/concerts-with-wedigit/</guid>
-      <description>WeDigIt is a project of the University of Arts Bremen which experiments to innovate, digitalize and extent study and teaching.</description>
-    </item>
-    <item>
       <title>Dont Look at Medusa</title>
       <link>https://markusmeier345.github.io/projects/dont_look_at_medusa/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/projects/dont_look_at_medusa/</guid>
       <description>Dont’t Look at Medusa is an experimetl VR – Game made in the Unreal Engine 5, focusing around the Mythology of Medusa and exploration of VR Gameplay possibilities.</description>
-    </item>
-    <item>
-      <title>Card Game</title>
-      <link>https://markusmeier345.github.io/projects/card_game/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://markusmeier345.github.io/projects/card_game/</guid>
-      <description>This Card Game is a hobby project inspired by Inscryption, powered by Unreal Engine.</description>
     </item>
     <item>
       <title>Void Walk</title>
@@ -142,11 +156,60 @@
       <description>This is my first Game Project and what got me into Game Design.</description>
     </item>
     <item>
+      <title>The Gift</title>
+      <link>https://markusmeier345.github.io/video-projects/the-gift/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/the-gift/</guid>
+      <description>Description</description>
+    </item>
+    <item>
       <title>AMVs</title>
       <link>https://markusmeier345.github.io/video-projects/amvs/</link>
       <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/video-projects/amvs/</guid>
       <description>AMVs stands for either Anime Music Video or Animated Music Video.</description>
+    </item>
+    <item>
+      <title>Skydancers</title>
+      <link>https://markusmeier345.github.io/video-projects/skydancers/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/skydancers/</guid>
+      <description>With Sky dancers I tried a lot to wrap key points of the story of fullmetal alchemist and the struggle of the Elric brothers in an emotional fitting way with clear narrative flow.</description>
+    </item>
+    <item>
+      <title>I will definetly Change.</title>
+      <link>https://markusmeier345.github.io/video-projects/i-will-definetly-change/</link>
+      <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/i-will-definetly-change/</guid>
+      <description>From all the AMVs I ever made, this is probably my most favorite.</description>
+    </item>
+    <item>
+      <title>The Day of Heroes</title>
+      <link>https://markusmeier345.github.io/video-projects/the-day-of-heroes/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/the-day-of-heroes/</guid>
+      <description>This is first time I had combined the narrative of multiple scenes and shows with an overlapping theme to create a narrative of its own, instead of simply represnting the content of the original material.</description>
+    </item>
+    <item>
+      <title>War of Gods</title>
+      <link>https://markusmeier345.github.io/video-projects/war-of-gods/</link>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/war-of-gods/</guid>
+      <description>Some might say that the quality of my edits had reduced with this video.</description>
+    </item>
+    <item>
+      <title>Caped Baldy and Blonde Cyborg</title>
+      <link>https://markusmeier345.github.io/video-projects/caped-baldy-and-blonde-cyborg/</link>
+      <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/caped-baldy-and-blonde-cyborg/</guid>
+      <description>This project is somehow special but it is hard to pin point why.</description>
+    </item>
+    <item>
+      <title>Warlords of the Force</title>
+      <link>https://markusmeier345.github.io/video-projects/warlords-of-the-force/</link>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/video-projects/warlords-of-the-force/</guid>
+      <description>Statisitcally this is my most successfull video.</description>
     </item>
   </channel>
 </rss>

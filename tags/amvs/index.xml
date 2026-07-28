@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMVs on Markus Meier</title>
+    <link>http://localhost:1313/tags/amvs/</link>
+    <description>Recent content in AMVs on Markus Meier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/amvs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caped Baldy and Blonde Cyborg</title>
+      <link>http://localhost:1313/video-projects/caped-baldy-and-blonde-cyborg/</link>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/video-projects/caped-baldy-and-blonde-cyborg/</guid>
+      <description>AMVs stands for either Anime Music Video or Animated Music Video.</description>
+    </item>
+  </channel>
+</rss>

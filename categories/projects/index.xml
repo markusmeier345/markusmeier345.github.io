@@ -6,8 +6,29 @@
     <description>Recent content in Projects on Markus Meier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markusmeier345.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crazy Pan Dog</title>
+      <link>https://markusmeier345.github.io/projects/crazy_pan_dog/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/crazy_pan_dog/</guid>
+      <description>In the first Semester of the Games Master we came together to make a small one button game.</description>
+    </item>
+    <item>
+      <title>One Armed Swordsman</title>
+      <link>https://markusmeier345.github.io/projects/one_armed_swordsman/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/one_armed_swordsman/</guid>
+      <description>After finishing my bachelor thesis I had realized that I need a change in direction.</description>
+    </item>
+    <item>
+      <title>Bless You</title>
+      <link>https://markusmeier345.github.io/projects/bless_you/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://markusmeier345.github.io/projects/bless_you/</guid>
+      <description>In the first Semester of the Games Master we made an internal gamejam to get to know each other.</description>
+    </item>
     <item>
       <title>Portfolio with Hugo</title>
       <link>https://markusmeier345.github.io/projects/portfolio/</link>
@@ -27,7 +48,7 @@
       <link>https://markusmeier345.github.io/projects/waldeinsamkeit/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://markusmeier345.github.io/projects/waldeinsamkeit/</guid>
-      <description>This Page is WIP, but feel free to check it out c:</description>
+      <description>Waldeinsmakeit is a narrative VR experience based on a small cabin and a poem by Heinrich Heine.</description>
     </item>
     <item>
       <title>Back to the Roots</title>
